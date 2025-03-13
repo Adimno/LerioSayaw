@@ -4,7 +4,19 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 6be6e266ac7bc7748bcbaf16cb7471c6
+  - enabled: 1
+    path: Assets/Scenes/Lerion_Scene.unity
+    guid: 21511cc3bd273a94ea4192bc8031755b
+  - enabled: 1
+    path: Assets/Scenes/Carinosa_Scene.unity
+    guid: 1663d5919bb2e194f9a5a62e75222d78
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: cb80b3b153601bc4fab55d859e3c8bb1, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f5218a9489f7f2043b621b2de4b8ffa3, type: 2}
