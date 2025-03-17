@@ -1,0 +1,11 @@
+Model Information:
+* title:	SOMBRERON esqueleto1
+* source:	https://sketchfab.com/3d-models/sombreron-esqueleto1-e73b8808b616422fbfc5344c4ad567b6
+* author:	anibalsinto7851 (https://sketchfab.com/anibalsinto7851)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "SOMBRERON esqueleto1" (https://sketchfab.com/3d-models/sombreron-esqueleto1-e73b8808b616422fbfc5344c4ad567b6) by anibalsinto7851 (https://sketchfab.com/anibalsinto7851) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

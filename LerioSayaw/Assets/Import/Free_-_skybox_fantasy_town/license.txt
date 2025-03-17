@@ -1,0 +1,11 @@
+Model Information:
+* title:	Free_-_skybox_fantasy_town
+* source:	https://sketchfab.com/3d-models/free---skybox-fantasy-town-ff2a032748184ae0b2138f614aa87842
+* author:	HallowDragon (https://sketchfab.com/HallowDragon)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Free_-_skybox_fantasy_town" (https://sketchfab.com/3d-models/free---skybox-fantasy-town-ff2a032748184ae0b2138f614aa87842) by HallowDragon (https://sketchfab.com/HallowDragon) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
