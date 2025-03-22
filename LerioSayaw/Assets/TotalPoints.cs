@@ -12,7 +12,7 @@ public class TotalPoints : MonoBehaviour
     void Update()
     {
         // Update the TextMeshPro text with points value
-        textMeshPro.text = points + " pts";
+        textMeshPro.text = "Score: " + points + " pts";
     }
 
     // Property to get the points value

@@ -9,7 +9,7 @@ public class TaskPercentage : MonoBehaviour
     void Update()
     {
         // Display the taskPercentage as a whole number (integer)
-        textMeshPro.text = Mathf.FloorToInt(taskPercentage) + "%";  // Floors the value to nearest lower integer
+        textMeshPro.text = "Progress: " + Mathf.FloorToInt(taskPercentage) + "%";  // Floors the value to nearest lower integer
     }
 
     public float TaskPercentageValue
