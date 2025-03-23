@@ -20,8 +20,8 @@ public class DanceCanvas : MonoBehaviour
 
     public void characterSelectionShow()
     {
-        welcome.SetActive(false);
         characterSelection.SetActive(true);
+        welcome.SetActive(false);
     }
 
 
