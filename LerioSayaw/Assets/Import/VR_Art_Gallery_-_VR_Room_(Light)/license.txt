@@ -1,0 +1,11 @@
+Model Information:
+* title:	VR Art Gallery - VR Room (Light)
+* source:	https://sketchfab.com/3d-models/vr-art-gallery-vr-room-light-06b2ad1413e44f579283963988ea816c
+* author:	DaylaQuan (https://sketchfab.com/DaylaQuan)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "VR Art Gallery - VR Room (Light)" (https://sketchfab.com/3d-models/vr-art-gallery-vr-room-light-06b2ad1413e44f579283963988ea816c) by DaylaQuan (https://sketchfab.com/DaylaQuan) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
