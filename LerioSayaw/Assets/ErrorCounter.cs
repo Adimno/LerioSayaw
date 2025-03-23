@@ -10,7 +10,7 @@ public class ErrorCounter : MonoBehaviour
     public void Increment()
     {
         counter++;
-        if (counter == 100)
+        if (counter == 10)
         {
             if (!GameOver.isPlaying) // Check if the sound isn't already playing
             {

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DanceCanvas : MonoBehaviour
 {
@@ -24,10 +25,26 @@ public class DanceCanvas : MonoBehaviour
         welcome.SetActive(false);
     }
 
-
-    // Update is called once per frame
-    void Update()
+    public void MoveToMain_Menu()
     {
-        
+        // Reset attempts and navigate to the main menu
+        StartCoroutine(LoadScene("MainMenu"));
+    }
+
+    public void TryAgainLerio()
+    {
+        // Reload the current scene for retrying
+        StartCoroutine(LoadScene("Lerion_Scene"));
+    }
+
+    private IEnumerator LoadScene(string sceneName)
+    {
+        // Asynchronously load the specified scene
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName);
+
+        while (!asyncLoad.isDone)
+        {
+            yield return null;
+        }
     }
 }
