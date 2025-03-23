@@ -10,7 +10,6 @@ public class MenuHide : MonoBehaviour
 
     void Start()
     {
-        ShowCanvas.SetActive(false);
     }
 
 
@@ -18,8 +17,11 @@ public class MenuHide : MonoBehaviour
     {
         if (ShowCanvas != null)
         {
+             Debug.LogError("ShowCanvas or MainMenu is not assigned in the Inspector!");
+          
             MainMenu.SetActive(false);
-            ShowCanvas.SetActive(true);
+              ShowCanvas.SetActive(true);
+       
         }
     }
 
