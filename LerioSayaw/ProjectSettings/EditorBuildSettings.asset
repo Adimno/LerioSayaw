@@ -17,6 +17,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Carinosa_Scene.unity
     guid: 1663d5919bb2e194f9a5a62e75222d78
+  - enabled: 1
+    path: Assets/Scenes/lerion_test.unity
+    guid: f2629f95ded9f084ba7e2515cb6e58b2
+  - enabled: 1
+    path: Assets/Scenes/carinosa_test.unity
+    guid: 9d7f8e671adb3e34f992bc7fa9da41b6
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: cb80b3b153601bc4fab55d859e3c8bb1, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f5218a9489f7f2043b621b2de4b8ffa3, type: 2}
