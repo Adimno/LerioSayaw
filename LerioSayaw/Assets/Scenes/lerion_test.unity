@@ -1388,14 +1388,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Version: 1
-  m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_LightCookieSize: {x: 1, y: 1}
-  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!108 &58373264
 Light:
   m_ObjectHideFlags: 0
@@ -2058,7 +2050,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5638779662264228680, guid: ace9b8c10851fde4781bd88fa6c4c4bd, type: 3}
       propertyPath: m_Name
-      value: male btn
+      value: Female btn
       objectReference: {fileID: 0}
     - target: {fileID: 5638779662264228680, guid: ace9b8c10851fde4781bd88fa6c4c4bd, type: 3}
       propertyPath: m_IsActive
@@ -2070,7 +2062,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5638779662264228681, guid: ace9b8c10851fde4781bd88fa6c4c4bd, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -231
+      value: 217
       objectReference: {fileID: 0}
     - target: {fileID: 5638779662264228681, guid: ace9b8c10851fde4781bd88fa6c4c4bd, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -2874,7 +2866,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5638779663088797321, guid: ace9b8c10851fde4781bd88fa6c4c4bd, type: 3}
       propertyPath: m_Text
-      value: Male
+      value: Female
       objectReference: {fileID: 0}
     - target: {fileID: 5638779663088797321, guid: ace9b8c10851fde4781bd88fa6c4c4bd, type: 3}
       propertyPath: m_Color.b
@@ -3266,7 +3258,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5638779663471084006, guid: ace9b8c10851fde4781bd88fa6c4c4bd, type: 3}
       propertyPath: m_Text
-      value: Female
+      value: Male
       objectReference: {fileID: 0}
     - target: {fileID: 5638779663471084006, guid: ace9b8c10851fde4781bd88fa6c4c4bd, type: 3}
       propertyPath: m_Color.b
@@ -3418,7 +3410,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5638779663606683338, guid: ace9b8c10851fde4781bd88fa6c4c4bd, type: 3}
       propertyPath: m_Name
-      value: femal btn
+      value: Male btn
       objectReference: {fileID: 0}
     - target: {fileID: 5638779663606683338, guid: ace9b8c10851fde4781bd88fa6c4c4bd, type: 3}
       propertyPath: m_IsActive
@@ -3430,7 +3422,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5638779663606683339, guid: ace9b8c10851fde4781bd88fa6c4c4bd, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 217
+      value: -237
       objectReference: {fileID: 0}
     - target: {fileID: 5638779663606683339, guid: ace9b8c10851fde4781bd88fa6c4c4bd, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -3850,14 +3842,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Version: 1
-  m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_LightCookieSize: {x: 1, y: 1}
-  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1001 &85573428
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7024,14 +7008,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Version: 1
-  m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_LightCookieSize: {x: 1, y: 1}
-  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1001 &265607884
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8494,14 +8470,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Version: 1
-  m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_LightCookieSize: {x: 1, y: 1}
-  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1001 &404526391
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9346,14 +9314,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Version: 1
-  m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_LightCookieSize: {x: 1, y: 1}
-  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1001 &456665914
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13244,8 +13204,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adb30198aa32dd140b5750692dd48104, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 40
-  image: {fileID: 679244158}
 --- !u!114 &679244158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14580,8 +14538,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adb30198aa32dd140b5750692dd48104, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 40
-  image: {fileID: 745547076}
 --- !u!114 &745547076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16054,14 +16010,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Version: 1
-  m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_LightCookieSize: {x: 1, y: 1}
-  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1001 &809500641
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21498,14 +21446,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Version: 1
-  m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_LightCookieSize: {x: 1, y: 1}
-  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1001 &1090415193
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24235,8 +24175,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adb30198aa32dd140b5750692dd48104, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 40
-  image: {fileID: 1286290456}
 --- !u!114 &1286290456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31227,14 +31165,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Version: 1
-  m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_LightCookieSize: {x: 1, y: 1}
-  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1001 &1688384718
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31730,8 +31660,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adb30198aa32dd140b5750692dd48104, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 40
-  image: {fileID: 1709524484}
 --- !u!114 &1709524484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34404,8 +34332,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adb30198aa32dd140b5750692dd48104, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 40
-  image: {fileID: 1868339126}
 --- !u!114 &1868339126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34596,14 +34522,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Version: 1
-  m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_LightCookieSize: {x: 1, y: 1}
-  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1001 &1881559381
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35223,14 +35141,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Version: 1
-  m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_LightCookieSize: {x: 1, y: 1}
-  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!108 &1925789349
 Light:
   m_ObjectHideFlags: 0
@@ -35497,14 +35407,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Version: 1
-  m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_LightCookieSize: {x: 1, y: 1}
-  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1001 &1940535583
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36749,14 +36651,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Version: 1
-  m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_LightCookieSize: {x: 1, y: 1}
-  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1001 &2016131869
 PrefabInstance:
   m_ObjectHideFlags: 0
