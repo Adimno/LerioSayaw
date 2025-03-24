@@ -2127,7 +2127,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5638779662264228680, guid: ace9b8c10851fde4781bd88fa6c4c4bd, type: 3}
       propertyPath: m_Name
-      value: male btn
+      value: female btn
       objectReference: {fileID: 0}
     - target: {fileID: 5638779662264228680, guid: ace9b8c10851fde4781bd88fa6c4c4bd, type: 3}
       propertyPath: m_IsActive
@@ -2139,7 +2139,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5638779662264228681, guid: ace9b8c10851fde4781bd88fa6c4c4bd, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -231
+      value: 263
       objectReference: {fileID: 0}
     - target: {fileID: 5638779662264228681, guid: ace9b8c10851fde4781bd88fa6c4c4bd, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -2943,7 +2943,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5638779663088797321, guid: ace9b8c10851fde4781bd88fa6c4c4bd, type: 3}
       propertyPath: m_Text
-      value: Male
+      value: Female
       objectReference: {fileID: 0}
     - target: {fileID: 5638779663088797321, guid: ace9b8c10851fde4781bd88fa6c4c4bd, type: 3}
       propertyPath: m_Color.b
@@ -3335,7 +3335,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5638779663471084006, guid: ace9b8c10851fde4781bd88fa6c4c4bd, type: 3}
       propertyPath: m_Text
-      value: Female
+      value: Male
       objectReference: {fileID: 0}
     - target: {fileID: 5638779663471084006, guid: ace9b8c10851fde4781bd88fa6c4c4bd, type: 3}
       propertyPath: m_Color.b
@@ -3487,7 +3487,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5638779663606683338, guid: ace9b8c10851fde4781bd88fa6c4c4bd, type: 3}
       propertyPath: m_Name
-      value: femal btn
+      value: male btn
       objectReference: {fileID: 0}
     - target: {fileID: 5638779663606683338, guid: ace9b8c10851fde4781bd88fa6c4c4bd, type: 3}
       propertyPath: m_IsActive
@@ -3499,7 +3499,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5638779663606683339, guid: ace9b8c10851fde4781bd88fa6c4c4bd, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 217
+      value: -275
       objectReference: {fileID: 0}
     - target: {fileID: 5638779663606683339, guid: ace9b8c10851fde4781bd88fa6c4c4bd, type: 3}
       propertyPath: m_AnchoredPosition.y
