@@ -7,59 +7,101 @@ public class StepChecker : MonoBehaviour
 {
     public bool[] boolArray = new bool[3] { false, false, false };
     public TotalPoints points;
-    public AudioSource correct;
+    public AudioSource perfectAudio, greatAudio, missAudio;
     public GameObject wrongDetector;
     public ErrorCounter counter;
-    //public WrongIndicator indicator;
-    private bool hasTriggered = false; // Flag to ensure actions run only once
+    private bool hasTriggered = false; // Ensures actions run only once
+    public GameObject perfect, great, miss;
 
-    void Update()
+    void Start()
     {
-        CheckAllTrue();
+        perfect.SetActive(false);
+        great.SetActive(false);
+        miss.SetActive(false);
     }
 
-    void CheckAllTrue()
-    {
-        // Check if all values in boolArray are true
-        bool allTrue = true;
-        foreach (bool value in boolArray)
-        {
-            if (!value)
-            {
-                allTrue = false;
-                break;
-            }
-        }
+    //void Update()
+    //{
+    //    CheckStepStatus();
+    //}
 
-        // If all values are true and hasTriggered is false, execute the actions
-        if (allTrue && !hasTriggered)
-        {
-            Debug.Log("NICE");
-            points.IncrementPoints(1);
-            correct.Play();
+    //void CheckStepStatus()
+    //{
+    //    int trueCount = 0;
+    //    int falseCount = 0;
 
-            hasTriggered = true; // Set the flag to true to prevent future triggers
-        } 
+    //    // Count true and false values
+    //    foreach (bool value in boolArray)
+    //    {
+    //        if (value) trueCount++;
+    //        else falseCount++;
+    //    }
 
-
-    }
+    //    if (trueCount == boolArray.Length && !hasTriggered)
+    //    {
+    //        // All true
+    //        Debug.Log("NICE");
+    //        points.IncrementPoints(1);
+    //        perfectAudio.Play();
+    //        hasTriggered = true;
+    //    }
+    //    else if (falseCount == boolArray.Length)
+    //    {
+    //        // All false
+    //        hasTriggered = false; // Reset to allow triggering again
+    //    }
+    //    else
+    //    {
+    //        // At least one true but not all
+    //        Debug.Log("At least one step is correct.");
+    //    }
+    //}
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject == wrongDetector)
         {
-            if (Array.Exists(boolArray, element => element == false))
+            int trueCount = 0;
+            int falseCount = 0;
+
+            foreach (bool value in boolArray)
             {
+                if (value) trueCount++;
+                else falseCount++;
+            }
+
+            if (falseCount == boolArray.Length)
+            {
+                // All false
+                perfect.SetActive(false);
+                great.SetActive(false);
+                miss.SetActive(true);
+
+                missAudio.Play();
                 counter.Increment();
-                //indicator.ShowWrong();
+            }
+            else if (trueCount == boolArray.Length)
+            {
+                // All true
+                points.IncrementPoints(1);
+                perfect.SetActive(true);
+                great.SetActive(false);
+                miss.SetActive(false);
+
+                perfectAudio.Play();
+                counter.Reset();
             }
             else
             {
-                counter.Reset();
-                //indicator.ShowPerfect();
+                // At least one true
+                perfect.SetActive(false);
+                great.SetActive(true);
+                miss.SetActive(false);
+
+                greatAudio.Play();
+                Debug.Log("Some steps are correct, but not all.");
             }
         }
-
     }
 
     public void SetIndexTrue(int index)

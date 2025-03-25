@@ -511,9 +511,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &9127057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1005,9 +1010,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &14796821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1161,9 +1171,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &17081223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1481,9 +1496,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &23229269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1846,9 +1866,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &31338490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2070,9 +2095,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &31883173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2226,9 +2256,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &33604180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2873,9 +2908,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &51509178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3029,9 +3069,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &51559923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3185,9 +3230,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &53007467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3847,9 +3897,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &60352358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4593,9 +4648,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 0}
+  greatAudio: {fileID: 0}
+  missAudio: {fileID: 0}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 0}
+  great: {fileID: 0}
+  miss: {fileID: 0}
 --- !u!114 &74429279
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5102,9 +5162,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &83516350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6897,9 +6962,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &128896594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7149,6 +7219,134 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &135596626
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 135596627}
+  - component: {fileID: 135596628}
+  m_Layer: 0
+  m_Name: PerfectAudio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &135596627
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 135596626}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 575404054}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &135596628
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 135596626}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: f6ef32e5242395d498dda0916d425aa9, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &136841911
 GameObject:
   m_ObjectHideFlags: 0
@@ -8396,9 +8594,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &161885126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8831,9 +9034,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &169275279
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9463,9 +9671,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &177903416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9838,9 +10051,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &182577524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10644,9 +10862,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &195350261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10898,7 +11121,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &198981383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11079,9 +11302,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &202132500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11855,9 +12083,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &207873272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12955,9 +13188,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &227295232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13111,9 +13349,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &229929307
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13403,9 +13646,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &241142371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13967,9 +14215,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &256790596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14123,9 +14376,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &256930640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14718,9 +14976,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &265951512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16279,9 +16542,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &294339925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16503,9 +16771,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &298832576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16659,9 +16932,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &299108243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17222,9 +17500,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &310771599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17378,9 +17661,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &311260912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17972,9 +18260,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &321092802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18073,6 +18366,81 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 321092799}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &321373120
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 321373121}
+  - component: {fileID: 321373123}
+  - component: {fileID: 321373122}
+  m_Layer: 5
+  m_Name: Perfect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &321373121
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 321373120}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 319}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 785188972}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 628.31, y: 420}
+  m_SizeDelta: {x: 395.3857, y: 195.0371}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &321373122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 321373120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: a9b1609d9fd5b7a469bf41f5db57eedd, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &321373123
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 321373120}
+  m_CullTransparentMesh: 1
 --- !u!1 &325420733
 GameObject:
   m_ObjectHideFlags: 0
@@ -18415,9 +18783,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &329564562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19077,9 +19450,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &339784122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19973,9 +20351,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &352162016
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20333,9 +20716,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &358417270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20489,9 +20877,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &358770087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20756,7 +21149,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &359236361
 Transform:
   m_ObjectHideFlags: 0
@@ -21095,9 +21488,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &359383974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21251,9 +21649,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &359933209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21717,9 +22120,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &367629481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24108,9 +24516,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &409867874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24264,9 +24677,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &410220810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26202,9 +26620,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &443937344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26547,9 +26970,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &459951102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27477,9 +27905,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &485794596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27974,9 +28407,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &492697574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28678,9 +29116,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &512990639
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29272,9 +29715,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &519580881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30510,9 +30958,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &546322457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30734,9 +31187,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &546809334
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31026,9 +31484,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &552626933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31560,9 +32023,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &560943411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31882,9 +32350,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &563012367
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32257,9 +32730,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &565178340
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32762,6 +33240,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1061476878}
+  - {fileID: 135596627}
+  - {fileID: 698348764}
+  - {fileID: 1103500958}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -89.068, z: 0}
 --- !u!82 &575404055
@@ -33489,9 +33970,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &586947551
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34370,9 +34856,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &602121169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34662,9 +35153,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &606261387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34818,9 +35314,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &607093918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36807,9 +37308,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &656058254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37114,9 +37620,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &659204723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38207,9 +38718,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &677140648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38612,9 +39128,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &681391349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39123,9 +39644,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &686896109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39347,9 +39873,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &690922247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39722,9 +40253,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &695260535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39891,6 +40427,134 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1.520952, z: 1.413979}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &698348763
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 698348764}
+  - component: {fileID: 698348765}
+  m_Layer: 0
+  m_Name: GreatAudio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &698348764
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698348763}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 575404054}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &698348765
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698348763}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 89121edcc67f17348909d3697aec824b, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &699587533
 GameObject:
   m_ObjectHideFlags: 0
@@ -40150,9 +40814,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &703099260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40389,9 +41058,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &704196944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40764,9 +41438,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &709896794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40920,9 +41599,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &713380203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41190,9 +41874,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &716196986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41414,9 +42103,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &718870784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41570,9 +42264,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &721311098
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43104,9 +43803,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &756960359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43343,9 +44047,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &762042351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43499,9 +44208,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &763327746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44453,6 +45167,9 @@ RectTransform:
   - {fileID: 1361043687}
   - {fileID: 74876569}
   - {fileID: 12386624}
+  - {fileID: 1403306110}
+  - {fileID: 321373121}
+  - {fileID: 1129951567}
   m_Father: {fileID: 2111679320}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -44797,9 +45514,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &792812429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45580,9 +46302,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &816053402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46665,9 +47392,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &833378770
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47256,9 +47988,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &837818768
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47548,9 +48285,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &843682813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48074,9 +48816,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &862207042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48502,9 +49249,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &872278137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49601,9 +50353,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &893661090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49757,9 +50514,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &898205771
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50087,9 +50849,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &900580751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50311,9 +51078,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &902849942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50550,9 +51322,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &906660656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50774,9 +51551,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &917571755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51066,9 +51848,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &920509217
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51290,9 +52077,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &921554227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51681,9 +52473,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &924518138
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52100,9 +52897,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &936062237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52324,9 +53126,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &938268440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52586,9 +53393,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &944648524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52810,9 +53622,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &946974527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53605,9 +54422,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &957893357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53912,9 +54734,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &961829087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55005,9 +55832,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &973838914
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55380,9 +56212,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &982304000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55604,9 +56441,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &983423341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55896,9 +56738,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &985531143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56422,9 +57269,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &996056856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56578,9 +57430,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &997216014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56840,9 +57697,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1000402511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57372,9 +58234,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1011425983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57919,9 +58786,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1020042123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58075,9 +58947,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1020099257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58299,9 +59176,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1020295903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58712,9 +59594,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1027846586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59155,9 +60042,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1030051623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59894,9 +60786,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1038077211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60186,9 +61083,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1047359261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60342,9 +61244,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1048579937
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60498,9 +61405,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1049159201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60790,9 +61702,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1051946292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61029,9 +61946,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1054012714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61404,9 +62326,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1056265072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61560,9 +62487,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1056985357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61716,9 +62648,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1056990088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62478,9 +63415,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1070227174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62785,9 +63727,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1074732387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63024,9 +63971,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1079083040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63384,9 +64336,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1085336786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63948,9 +64905,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1092458735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64391,9 +65353,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1099516319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64547,9 +65514,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1102548353
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64716,6 +65688,134 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1.557397, z: 1.850757}
   m_Center: {x: 0, y: 0, z: 0.27}
+--- !u!1 &1103500957
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1103500958}
+  - component: {fileID: 1103500959}
+  m_Layer: 0
+  m_Name: MissAudio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1103500958
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103500957}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 575404054}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1103500959
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103500957}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 370783aed51c81542baf53e27113735e, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1105116486
 GameObject:
   m_ObjectHideFlags: 0
@@ -65534,9 +66634,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1115472746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66332,9 +67437,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1127376935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66433,6 +67543,81 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1127376932}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1129951566
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1129951567}
+  - component: {fileID: 1129951569}
+  - component: {fileID: 1129951568}
+  m_Layer: 5
+  m_Name: Miss
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1129951567
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129951566}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 319}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 785188972}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 628.31, y: 420}
+  m_SizeDelta: {x: 395.3857, y: 195.0371}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1129951568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129951566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 91ea7dfa7ba584e46b838305c7d12d66, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1129951569
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129951566}
+  m_CullTransparentMesh: 1
 --- !u!1 &1132703894
 GameObject:
   m_ObjectHideFlags: 0
@@ -66571,9 +67756,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1134575306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67505,9 +68695,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1144454918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68016,9 +69211,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1148253171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68308,9 +69508,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1151894965
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69342,9 +70547,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 0}
+  greatAudio: {fileID: 0}
+  missAudio: {fileID: 0}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 0}
+  great: {fileID: 0}
+  miss: {fileID: 0}
 --- !u!114 &1170025204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69566,9 +70776,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1173910199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70349,9 +71564,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1194067871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72069,9 +73289,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1224083007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72293,9 +73518,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1228326823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72449,9 +73679,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1228633873
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72673,9 +73908,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1230062778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73169,9 +74409,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1243252446
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73786,9 +75031,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1267022014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74078,9 +75328,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1275746051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74302,9 +75557,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1277164279
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74844,9 +76104,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1288554741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75151,9 +76416,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1292016831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75458,9 +76728,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1299553414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75750,9 +77025,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1307445801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76397,9 +77677,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1317320489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77820,9 +79105,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1346786750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78112,9 +79402,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1348287959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78666,9 +79961,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1351796219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79696,9 +80996,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1366400787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79920,9 +81225,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1368054936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80076,9 +81386,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1372560900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80300,9 +81615,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1373897920
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81068,9 +82388,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1386933727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82001,6 +83326,81 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1403306109
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1403306110}
+  - component: {fileID: 1403306112}
+  - component: {fileID: 1403306111}
+  m_Layer: 5
+  m_Name: Great
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1403306110
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403306109}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 319}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 785188972}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 628.31, y: 420}
+  m_SizeDelta: {x: 395.3857, y: 195.0371}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1403306111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403306109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 7d2d1bca4d5112545a9e7abc976335c4, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1403306112
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403306109}
+  m_CullTransparentMesh: 1
 --- !u!1 &1406345213
 GameObject:
   m_ObjectHideFlags: 0
@@ -82056,9 +83456,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1406345216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82348,9 +83753,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1407471564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83351,9 +84761,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1432652256
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83795,9 +85210,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1443149324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84484,9 +85904,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1456155058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84708,9 +86133,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1457076232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85015,9 +86445,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1458696456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85322,9 +86757,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1461414652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86067,9 +87507,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1484059155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86495,9 +87940,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1489155656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87233,9 +88683,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1506065522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87812,9 +89267,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1514917040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88489,9 +89949,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1525412107
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89216,9 +90681,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1543115596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89541,9 +91011,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1547611887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89976,9 +91451,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1555878087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -90367,9 +91847,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1559137007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91052,9 +92537,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1571852741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93434,9 +94924,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1610089668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93794,9 +95289,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1611535399
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94018,9 +95518,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 0}
+  greatAudio: {fileID: 0}
+  missAudio: {fileID: 0}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 0}
+  great: {fileID: 0}
+  miss: {fileID: 0}
 --- !u!114 &1614949895
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94242,9 +95747,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1615576742
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94481,9 +95991,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1618844717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94939,9 +96454,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1630871138
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95095,9 +96615,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1631217276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95251,9 +96776,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1634418735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95543,9 +97073,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1637659229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95903,9 +97438,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1647173380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96059,9 +97599,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1647672374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96307,9 +97852,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1648512005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97226,9 +98776,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1670793019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97533,9 +99088,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1675048062
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97757,9 +99317,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1677112910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98117,9 +99682,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1683427670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98379,9 +99949,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1685019006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98807,9 +100382,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1689918553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99041,9 +100621,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1692519314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99348,9 +100933,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1695987205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99572,9 +101162,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1698557885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99796,9 +101391,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1701116017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99952,9 +101552,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1701246461
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100998,9 +102603,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1710896924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -101426,9 +103036,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1714193970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -102245,9 +103860,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1728510805
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -102401,9 +104021,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1730935402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103252,9 +104877,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1741363122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103763,9 +105393,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 0}
+  greatAudio: {fileID: 0}
+  missAudio: {fileID: 0}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 0}
+  great: {fileID: 0}
+  miss: {fileID: 0}
 --- !u!114 &1749449902
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103987,9 +105622,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1749884509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -104143,9 +105783,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1754956635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -104926,9 +106571,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1775887417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105233,9 +106883,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1779923331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105850,9 +107505,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1791447809
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -106495,9 +108155,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1796895622
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -106787,9 +108452,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1800293397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -106974,9 +108644,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1800566491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107509,9 +109184,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1811638181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107801,9 +109481,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1817514476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108244,9 +109929,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1824371824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108843,9 +110533,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1837140572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109355,9 +111050,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1845545554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109734,9 +111434,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1847639207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109890,9 +111595,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1849050547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110046,9 +111756,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1852182587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110202,9 +111917,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1852608821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110358,9 +112078,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1853743629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110514,9 +112239,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1856481035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110738,9 +112468,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1857364334
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110894,9 +112629,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1858098258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111254,9 +112994,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1870529656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111410,9 +113155,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1871128997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111566,9 +113316,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1871978631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111973,9 +113728,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1878532431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -112212,9 +113972,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1885003152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -113252,9 +115017,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1899926139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -113627,9 +115397,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1908179801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114055,9 +115830,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1915383217
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114279,9 +116059,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1918518959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114435,9 +116220,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1918930310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114795,9 +116585,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1925431054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114951,9 +116746,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1927828788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -115432,9 +117232,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 0}
+  greatAudio: {fileID: 0}
+  missAudio: {fileID: 0}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 0}
+  great: {fileID: 0}
+  miss: {fileID: 0}
 --- !u!114 &1941389110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -115588,9 +117393,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1941519705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -115948,9 +117758,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1946696777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116172,9 +117987,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1949052501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116774,9 +118594,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1964556628
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117217,9 +119042,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1973375215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117488,9 +119318,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1974430079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117644,9 +119479,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1974808200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117800,9 +119640,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1976012497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118039,9 +119884,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1976866858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118263,9 +120113,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1980017300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118729,9 +120584,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &1994119822
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119225,9 +121085,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &2007005774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119381,9 +121246,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &2007522053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119605,9 +121475,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &2010763795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -120426,9 +122301,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &2027723881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -120582,9 +122462,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &2029485532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -121598,9 +123483,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &2047089648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -121905,9 +123795,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &2050040978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -122061,9 +123956,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &2051114541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -123078,9 +124978,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &2065451681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -123236,9 +125141,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &2071373200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -123566,9 +125476,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &2075279359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -123889,9 +125804,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &2080777036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -124287,9 +126207,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &2085174865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -124745,9 +126670,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &2094525567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125324,9 +127254,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &2106314990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125631,9 +127566,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &2108348157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125787,9 +127727,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &2109063230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126276,9 +128221,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &2112354851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126568,9 +128518,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &2115527935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -127268,9 +129223,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &2128313284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -128051,9 +130011,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &2140699601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -128207,9 +130172,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &2141106142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -128431,9 +130401,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &2141687654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -128772,9 +130747,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boolArray: 000000
   points: {fileID: 2111679321}
-  correct: {fileID: 166262173}
+  perfectAudio: {fileID: 135596628}
+  greatAudio: {fileID: 698348765}
+  missAudio: {fileID: 1103500959}
   wrongDetector: {fileID: 957613996}
   counter: {fileID: 1602131836}
+  perfect: {fileID: 321373120}
+  great: {fileID: 1403306109}
+  miss: {fileID: 1129951566}
 --- !u!114 &2146073637
 MonoBehaviour:
   m_ObjectHideFlags: 0
