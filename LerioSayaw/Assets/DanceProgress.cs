@@ -21,8 +21,9 @@ public class DanceProgress : MonoBehaviour
         // Ensure that we only process this once, and if the other object is one of the designated parts (Head, Right, Left)
         if (!hasCollided && (other.gameObject == player))
         {
-            percent.IncrementTaskPercentage(0.373f);
-
+            //percent.IncrementTaskPercentage(0.373f);
+            percent.IncrementTaskPercentage(5);
+            Debug.Log(percent.TaskPercentageValue);
             //Debug.Log("MALI");
             //if (music == "Jotabal")
             //{
