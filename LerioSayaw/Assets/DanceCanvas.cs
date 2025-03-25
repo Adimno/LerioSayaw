@@ -28,7 +28,7 @@ public class DanceCanvas : MonoBehaviour
     public void MoveToMain_Menu()
     {
         // Reset attempts and navigate to the main menu
-        StartCoroutine(LoadScene("MainMenu"));
+        StartCoroutine(LoadScene("main_menu_stage"));
     }
 
     public void TryAgainLerio()
