@@ -85555,7 +85555,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Steps: {fileID: 198981382}
-  MaleSteps: {fileID: 0}
+  MaleSteps: {fileID: 758980784}
   FemaleSteps: {fileID: 359236360}
   CharacterSelection: {fileID: 729232969}
   music: {fileID: 575404055}
@@ -105830,7 +105830,6 @@ GameObject:
   - component: {fileID: 1061507822}
   - component: {fileID: 1061507821}
   - component: {fileID: 1061507820}
-  - component: {fileID: 1061507819}
   m_Layer: 0
   m_Name: Wall1
   m_TagString: Untagged
@@ -105838,25 +105837,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1061507819
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1061507818}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08ae4f44dca5e754b96a5956cf6061f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayText: {fileID: 12386622}
-  player: {fileID: 575404051}
-  step1: {fileID: 1061507818}
-  step52: {fileID: 272780491}
-  step106: {fileID: 1991445733}
-  step142: {fileID: 465934794}
-  step178: {fileID: 1238158477}
 --- !u!114 &1061507820
 MonoBehaviour:
   m_ObjectHideFlags: 0
