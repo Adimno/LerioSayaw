@@ -51,7 +51,7 @@ public class StepChecker : MonoBehaviour
         if (other.gameObject == wrongDetector)
         {
             bool allTrue = Array.TrueForAll(boolArray, element => element);
-            bool atLeastOneTrue = Array.Exists(boolArray, element => element);
+            bool anyTrue = Array.Exists(boolArray, element => element); // Checks if at least one is true
 
             if (allTrue)
             {
@@ -62,14 +62,14 @@ public class StepChecker : MonoBehaviour
                 great.SetActive(false);
                 miss.SetActive(false);
             }
-            else if (!atLeastOneTrue)
+            else if (anyTrue) // As long as there's a true, show "great"
             {
                 perfect.SetActive(false);
                 great.SetActive(true);
                 miss.SetActive(false);
                 greatAudio.Play();
             }
-            else
+            else // If none are true, show "miss"
             {
                 counter.Increment();
                 perfect.SetActive(false);
@@ -79,6 +79,7 @@ public class StepChecker : MonoBehaviour
             }
         }
     }
+
 
 
     public void SetIndexTrue(int index)
