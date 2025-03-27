@@ -12,70 +12,80 @@ public class StepChecker : MonoBehaviour
     public ErrorCounter counter;
     private bool hasTriggered = false; // Ensures actions run only once
     public GameObject perfect, great, miss;
+    private bool[] previousState;
+    //private string lastState = "";
+
+    void Start()
+    {
+        previousState = (bool[])boolArray.Clone();
+    }
 
     void Update()
     {
-        CheckAllTrue();
+        if (HasArrayChanged())
+        {
+            CheckAllTrue();
+            Array.Copy(boolArray, previousState, boolArray.Length);
+        }
+    }
+
+    bool HasArrayChanged()
+    {
+        for (int i = 0; i < boolArray.Length; i++)
+        {
+            if (boolArray[i] != previousState[i])
+                return true;
+        }
+        return false;
     }
 
     void CheckAllTrue()
     {
-        // Check if all values in boolArray are true
-        bool allTrue = true;
-        foreach (bool value in boolArray)
-        {
-            if (!value)
-            {
-                allTrue = false;
-                break;
-            }
-        }
+        bool allTrue = Array.TrueForAll(boolArray, element => element);
+        bool atLeastOneTrue = Array.Exists(boolArray, element => element);
 
-        // If all values are true and hasTriggered is false, execute the actions
         if (allTrue && !hasTriggered)
         {
             Debug.Log("NICE");
             points.IncrementPoints(1);
             perfectAudio.Play();
+
+            // Activate "Perfect" UI
             perfect.SetActive(true);
             great.SetActive(false);
             miss.SetActive(false);
-            hasTriggered = true; // Set the flag to true to prevent future triggers
+
+            hasTriggered = true; // Prevent future triggers
+            //lastState = "perfect";
+
+            // Start coroutine to disable after 1 second
+            StartCoroutine(DisablePerfectAfterDelay(1f));
         }
-
-
     }
+
+    IEnumerator DisablePerfectAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        perfect.SetActive(false);
+    }
+
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject == wrongDetector)
         {
-            bool allTrue = Array.TrueForAll(boolArray, element => element);
-            bool atLeastOneTrue = Array.Exists(boolArray, element => element);
-
-            if (!atLeastOneTrue) // If all are false
-            {
-                perfect.SetActive(false);
-                great.SetActive(true);
-                miss.SetActive(false);
-                greatAudio.Play();
-            }
-            else if (allTrue) 
-            {
-                counter.Reset();
- 
-            }
-            else 
+            if (Array.Exists(boolArray, element => element == false))
             {
                 counter.Increment();
-                perfect.SetActive(false);
-                great.SetActive(false);
-                miss.SetActive(true);
-                missAudio.Play();
+                //indicator.ShowWrong();
+            }
+            else
+            {
+                counter.Reset();
+                //indicator.ShowPerfect();
             }
         }
     }
-
 
     public void SetIndexTrue(int index)
     {
@@ -85,4 +95,3 @@ public class StepChecker : MonoBehaviour
         }
     }
 }
-
