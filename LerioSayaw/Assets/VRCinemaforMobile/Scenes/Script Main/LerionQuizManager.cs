@@ -59,7 +59,7 @@ public class LerionQuizManager : MonoBehaviour
 
         var question = quizQuestions[questionOrder[currentQuestionIndex]];
         questionDescription.text = question.question;
-        numberQuestion.text = $"{currentQuestionIndex + 1}"; // Display current question number
+        numberQuestion.text = $"{currentQuestionIndex + 1}."; // Display current question number
 
         if (question.choices.Length != 4)
         {
