@@ -1604,7 +1604,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 16a4aaa98d359d94cb3f316c03ceeb3d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fbbd0d17cdc5e944cbd67666b0613d55, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -2302,7 +2302,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Welcome to Tutorial!
+  m_text: 'Game Start!
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b8f5aeb9c6de7614db2631011b869bc3, type: 2}
   m_sharedMaterial: {fileID: -5839354330806206608, guid: b8f5aeb9c6de7614db2631011b869bc3, type: 2}
@@ -5586,7 +5588,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 16a4aaa98d359d94cb3f316c03ceeb3d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: ae384191fea96de41bd778a9eebd6e77, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -8342,7 +8344,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 16a4aaa98d359d94cb3f316c03ceeb3d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 5786699d4a44f73409934e81adb8bc2f, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -10597,7 +10599,7 @@ GameObject:
   - component: {fileID: 1174251418}
   - component: {fileID: 1174251417}
   m_Layer: 0
-  m_Name: LookAround
+  m_Name: StartGame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10613,7 +10615,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 184736db9868acf4289ad84609c34827, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0d6640f04806e8045bb1b84dc813d0f9, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -10886,7 +10888,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 16a4aaa98d359d94cb3f316c03ceeb3d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 91c5bbcef2dd20148bdc8ae9a23ab8bf, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -12638,7 +12640,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Now,you can start and play the game!
+  m_text: 'Now, you can start and play the game!
 
 '
   m_isRightToLeft: 0
@@ -14209,7 +14211,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 16a4aaa98d359d94cb3f316c03ceeb3d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: c2e69dee85fb58d4cb00c6d01cc52b32, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -18115,12 +18117,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "The player must mimic the shape or position of the wall they are standing
-    on by matching their movement accordingly. Each new wall presents a specific
-    stance or step that the player must replicate. Scoring is based on accuracy:
-    Perfect earns 1 point, Great gives 5 points, and a Miss deducts 1 point. The
-    walls remain stationary, and the challenge lies in precisely mirroring each wall\u2019s
-    position to maintain rhythm and maximize the score."
+  m_text: "The player must mimic the shape of the wall they are standing on by matching
+    their movement accordingly. Each new wall presents a specific stance or step
+    that the player must replicate. Scoring is based on accuracy: Perfect earns 1
+    point, Great gives 5 points, and a Miss deducts 1 point. The walls remain stationary,
+    and the challenge lies in precisely mirroring each wall\u2019s position to maintain
+    rhythm and maximize the score."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a6446991ef31ced4190c53c206cf4b3e, type: 2}
   m_sharedMaterial: {fileID: -9221056233183343877, guid: a6446991ef31ced4190c53c206cf4b3e, type: 2}
