@@ -13,7 +13,7 @@ public class LerionQuizManager : MonoBehaviour
     public Text scoreText, outputText;
     public GameObject resultPanel;
     private int score = 0; // Tracks the current score
-    private int totalQuestions = 15; // Total number of questions for the quiz
+    private int totalQuestions = 30; // Total number of questions for the quiz
 
     // Struct to store a question and its options
     [System.Serializable]
@@ -99,8 +99,8 @@ public class LerionQuizManager : MonoBehaviour
 
     private void UpdateScoreText()
     {
-        scoreText.text = score.ToString() + " /15"; // Display the score
-        outputText.text = score.ToString() + " /15"; // panel score
+        scoreText.text = score.ToString() + " /30"; // Display the score
+        outputText.text = score.ToString() + " /30"; // panel score
     }
 
     public void ReloadScene()
