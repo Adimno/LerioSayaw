@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+
 public class LerionQuizManager : MonoBehaviour
 {
     [Header("Lerion Quiz Elements")]
     public Text questionDescription;
+    public Text numberQuestion;
+    
     public Button aButton, bButton, cButton, dButton;
 
     [Header("Score")]
@@ -15,7 +18,6 @@ public class LerionQuizManager : MonoBehaviour
     private int score = 0; // Tracks the current score
     private int totalQuestions = 30; // Total number of questions for the quiz
 
-    // Struct to store a question and its options
     [System.Serializable]
     public struct LerionQuizQuestion
     {
@@ -26,19 +28,38 @@ public class LerionQuizManager : MonoBehaviour
 
     public List<LerionQuizQuestion> quizQuestions = new List<LerionQuizQuestion>();
     private int currentQuestionIndex = 0;
+    private List<int> questionOrder = new List<int>(); // Randomized question indices
 
     private void Start()
     {
+        ShuffleQuestions();
         UpdateScoreText();
         DisplayQuestion();
+    }
+
+    private void ShuffleQuestions()
+    {
+        for (int i = 0; i < quizQuestions.Count; i++)
+        {
+            questionOrder.Add(i);
+        }
+
+        for (int i = 0; i < questionOrder.Count; i++)
+        {
+            int randomIndex = Random.Range(i, questionOrder.Count);
+            int temp = questionOrder[i];
+            questionOrder[i] = questionOrder[randomIndex];
+            questionOrder[randomIndex] = temp;
+        }
     }
 
     private void DisplayQuestion()
     {
         if (quizQuestions.Count == 0 || currentQuestionIndex >= quizQuestions.Count) return;
 
-        var question = quizQuestions[currentQuestionIndex];
+        var question = quizQuestions[questionOrder[currentQuestionIndex]];
         questionDescription.text = question.question;
+        numberQuestion.text = $"{currentQuestionIndex + 1}"; // Display current question number
 
         if (question.choices.Length != 4)
         {
@@ -71,7 +92,7 @@ public class LerionQuizManager : MonoBehaviour
             return;
         }
 
-        var correctAnswer = quizQuestions[currentQuestionIndex].correctAnswer;
+        var correctAnswer = quizQuestions[questionOrder[currentQuestionIndex]].correctAnswer;
 
         if (selectedAnswer == correctAnswer)
         {
@@ -99,8 +120,8 @@ public class LerionQuizManager : MonoBehaviour
 
     private void UpdateScoreText()
     {
-        scoreText.text = score.ToString() + " /30"; // Display the score
-        outputText.text = score.ToString() + " /30"; // panel score
+        scoreText.text = $"{score} /30"; // Display the score
+        outputText.text = $"{score} /30"; // panel score
     }
 
     public void ReloadScene()
