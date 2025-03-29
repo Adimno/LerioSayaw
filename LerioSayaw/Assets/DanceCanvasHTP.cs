@@ -4,43 +4,128 @@ using UnityEngine;
 
 public class DanceCanvasHTP : MonoBehaviour
 {
-    public GameObject welcome, LookCanvas, CongratsCanvas, GoodluckCanvas;
+    public GameObject welcomeCanvas, LookCanvas, CongratsCanvas, GoodluckCanvas;
+    public GameObject WallAppearanceCanvas, GameplayFlowCanvas, ScoringSystemCanvas, IMUCanvas;
 
-    // Start is called before the first frame update
     void Start()
     {
-        welcome.SetActive(true);
+        // Start with only the welcome screen active
+        welcomeCanvas.SetActive(true);
         LookCanvas.SetActive(false);
         CongratsCanvas.SetActive(false);
         GoodluckCanvas.SetActive(false);
+        WallAppearanceCanvas.SetActive(false);
+        GameplayFlowCanvas.SetActive(false);
+        ScoringSystemCanvas.SetActive(false);
+        IMUCanvas.SetActive(false);
     }
 
     public void welcomeShow()
     {
-        welcome.SetActive(true);
+        welcomeCanvas.SetActive(true);
+        LookCanvas.SetActive(false);
+        CongratsCanvas.SetActive(false);
+        GoodluckCanvas.SetActive(false);
+        WallAppearanceCanvas.SetActive(false);
+        GameplayFlowCanvas.SetActive(false);
+        ScoringSystemCanvas.SetActive(false);
+        IMUCanvas.SetActive(false);
     }
 
     public void LookCanvasLogic()
     {
         LookCanvas.SetActive(true);
-        welcome.SetActive(false);
+        welcomeCanvas.SetActive(false);
+        CongratsCanvas.SetActive(false);
+        GoodluckCanvas.SetActive(false);
+        WallAppearanceCanvas.SetActive(false);
+        GameplayFlowCanvas.SetActive(false);
+        ScoringSystemCanvas.SetActive(false);
+        IMUCanvas.SetActive(false);
+    }
+
+    public void CharacterCanvas()
+    {
+        LookCanvas.SetActive(true);
+        welcomeCanvas.SetActive(false);
+        CongratsCanvas.SetActive(false);
+        GoodluckCanvas.SetActive(false);
+        WallAppearanceCanvas.SetActive(false);
+        GameplayFlowCanvas.SetActive(false);
+        ScoringSystemCanvas.SetActive(false);
+        IMUCanvas.SetActive(false);
     }
 
     public void DanceCanvasLogic()
     {
-        LookCanvas.SetActive(false);
-        welcome.SetActive(false);
         GoodluckCanvas.SetActive(true);
+        LookCanvas.SetActive(false);
+        welcomeCanvas.SetActive(false);
+        CongratsCanvas.SetActive(false);
+        WallAppearanceCanvas.SetActive(false);
+        GameplayFlowCanvas.SetActive(false);
+        ScoringSystemCanvas.SetActive(false);
+        IMUCanvas.SetActive(false);
     }
-
 
     public void CongratsCanvasLogic()
     {
-        LookCanvas.SetActive(false);
-        welcome.SetActive(false);
-        GoodluckCanvas.SetActive(false);
         CongratsCanvas.SetActive(true);
+        LookCanvas.SetActive(false);
+        welcomeCanvas.SetActive(false);
+        GoodluckCanvas.SetActive(false);
+        WallAppearanceCanvas.SetActive(false);
+        GameplayFlowCanvas.SetActive(false);
+        ScoringSystemCanvas.SetActive(false);
+        IMUCanvas.SetActive(false);
     }
 
+    // ========== TUTORIAL SECTIONS ==========
+    public void ShowWallAppearance()
+    {
+        WallAppearanceCanvas.SetActive(true);
+        welcomeCanvas.SetActive(false);
+        LookCanvas.SetActive(false);
+        CongratsCanvas.SetActive(false);
+        GoodluckCanvas.SetActive(false);
+        GameplayFlowCanvas.SetActive(false);
+        ScoringSystemCanvas.SetActive(false);
+        IMUCanvas.SetActive(false);
+    }
 
+    public void ShowGameplayFlow()
+    {
+        GameplayFlowCanvas.SetActive(true);
+        welcomeCanvas.SetActive(false);
+        LookCanvas.SetActive(false);
+        CongratsCanvas.SetActive(false);
+        GoodluckCanvas.SetActive(false);
+        WallAppearanceCanvas.SetActive(false);
+        ScoringSystemCanvas.SetActive(false);
+        IMUCanvas.SetActive(false);
+    }
+
+    public void ShowScoringSystem()
+    {
+        ScoringSystemCanvas.SetActive(true);
+        welcomeCanvas.SetActive(false);
+        LookCanvas.SetActive(false);
+        CongratsCanvas.SetActive(false);
+        GoodluckCanvas.SetActive(false);
+        WallAppearanceCanvas.SetActive(false);
+        GameplayFlowCanvas.SetActive(false);
+        IMUCanvas.SetActive(false);
+    }
+
+    public void ShowIMU()
+    {
+        IMUCanvas.SetActive(true);
+        welcomeCanvas.SetActive(false);
+        LookCanvas.SetActive(false);
+        CongratsCanvas.SetActive(false);
+        GoodluckCanvas.SetActive(false);
+        WallAppearanceCanvas.SetActive(false);
+        GameplayFlowCanvas.SetActive(false);
+        ScoringSystemCanvas.SetActive(false);
+    }
 }
