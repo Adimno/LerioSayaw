@@ -9,7 +9,6 @@ public class StepChecker : MonoBehaviour
     public TotalPoints points;
     public AudioSource perfectAudio, greatAudio, missAudio;
     public GameObject wrongDetector;
-    public ErrorCounter counter;
     private bool hasTriggered = false; // Ensures actions run only once
     public GameObject perfect, great, miss;
     //public GameObject Player;
@@ -55,7 +54,7 @@ public class StepChecker : MonoBehaviour
 
             if (allTrue)
             {
-                counter.Reset();
+                
                 points.IncrementPoints(1);
                 perfectAudio.Play();
                 perfect.SetActive(true);
@@ -64,6 +63,7 @@ public class StepChecker : MonoBehaviour
             }
             else if (anyTrue) // As long as there's a true, show "great"
             {
+                points.IncrementPoints(0.5);
                 perfect.SetActive(false);
                 great.SetActive(true);
                 miss.SetActive(false);
@@ -71,7 +71,8 @@ public class StepChecker : MonoBehaviour
             }
             else // If none are true, show "miss"
             {
-                counter.Increment();
+                points.DecrementPoints(1);
+                
                 perfect.SetActive(false);
                 great.SetActive(false);
                 miss.SetActive(true);

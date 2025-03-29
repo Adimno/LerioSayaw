@@ -214909,6 +214909,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textMeshPro: {fileID: 1361043688}
   pointsMultiplier: 1
+  Steps: {fileID: 198981382}
+  GameOver: {fileID: 1973897552}
 --- !u!114 &2111679322
 MonoBehaviour:
   m_ObjectHideFlags: 0
