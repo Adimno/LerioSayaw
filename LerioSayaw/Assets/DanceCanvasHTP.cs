@@ -6,6 +6,7 @@ public class DanceCanvasHTP : MonoBehaviour
 {
     public GameObject welcomeCanvas, LookCanvas, CongratsCanvas, GoodluckCanvas;
     public GameObject WallAppearanceCanvas, GameplayFlowCanvas, ScoringSystemCanvas, IMUCanvas;
+    public GameObject FiguresCanvas;
 
     void Start()
     {
@@ -18,6 +19,8 @@ public class DanceCanvasHTP : MonoBehaviour
         GameplayFlowCanvas.SetActive(false);
         ScoringSystemCanvas.SetActive(false);
         IMUCanvas.SetActive(false);
+        FiguresCanvas.SetActive(false);
+
     }
 
     public void welcomeShow()
@@ -30,6 +33,8 @@ public class DanceCanvasHTP : MonoBehaviour
         GameplayFlowCanvas.SetActive(false);
         ScoringSystemCanvas.SetActive(false);
         IMUCanvas.SetActive(false);
+        FiguresCanvas.SetActive(false);
+        
     }
 
     public void LookCanvasLogic()
@@ -42,6 +47,8 @@ public class DanceCanvasHTP : MonoBehaviour
         GameplayFlowCanvas.SetActive(false);
         ScoringSystemCanvas.SetActive(false);
         IMUCanvas.SetActive(false);
+        FiguresCanvas.SetActive(false);
+        
     }
 
     public void CharacterCanvas()
@@ -54,6 +61,8 @@ public class DanceCanvasHTP : MonoBehaviour
         GameplayFlowCanvas.SetActive(false);
         ScoringSystemCanvas.SetActive(false);
         IMUCanvas.SetActive(false);
+        FiguresCanvas.SetActive(false);
+        
     }
 
     public void DanceCanvasLogic()
@@ -66,6 +75,8 @@ public class DanceCanvasHTP : MonoBehaviour
         GameplayFlowCanvas.SetActive(false);
         ScoringSystemCanvas.SetActive(false);
         IMUCanvas.SetActive(false);
+        FiguresCanvas.SetActive(false);
+        
     }
 
     public void CongratsCanvasLogic()
@@ -78,6 +89,8 @@ public class DanceCanvasHTP : MonoBehaviour
         GameplayFlowCanvas.SetActive(false);
         ScoringSystemCanvas.SetActive(false);
         IMUCanvas.SetActive(false);
+        FiguresCanvas.SetActive(false);
+        
     }
 
     // ========== TUTORIAL SECTIONS ==========
@@ -91,6 +104,8 @@ public class DanceCanvasHTP : MonoBehaviour
         GameplayFlowCanvas.SetActive(false);
         ScoringSystemCanvas.SetActive(false);
         IMUCanvas.SetActive(false);
+        FiguresCanvas.SetActive(false);
+        
     }
 
     public void ShowGameplayFlow()
@@ -103,6 +118,8 @@ public class DanceCanvasHTP : MonoBehaviour
         WallAppearanceCanvas.SetActive(false);
         ScoringSystemCanvas.SetActive(false);
         IMUCanvas.SetActive(false);
+        FiguresCanvas.SetActive(false);
+        
     }
 
     public void ShowScoringSystem()
@@ -115,6 +132,8 @@ public class DanceCanvasHTP : MonoBehaviour
         WallAppearanceCanvas.SetActive(false);
         GameplayFlowCanvas.SetActive(false);
         IMUCanvas.SetActive(false);
+        FiguresCanvas.SetActive(false);
+        
     }
 
     public void ShowIMU()
@@ -127,5 +146,20 @@ public class DanceCanvasHTP : MonoBehaviour
         WallAppearanceCanvas.SetActive(false);
         GameplayFlowCanvas.SetActive(false);
         ScoringSystemCanvas.SetActive(false);
+        FiguresCanvas.SetActive(false);
+        
+    }
+
+    public void FiguresCanvasLogic()
+    {
+        FiguresCanvas.SetActive(true);
+        welcomeCanvas.SetActive(false);
+        LookCanvas.SetActive(false);
+        CongratsCanvas.SetActive(false);
+        GoodluckCanvas.SetActive(false);
+        WallAppearanceCanvas.SetActive(false);
+        GameplayFlowCanvas.SetActive(false);
+        ScoringSystemCanvas.SetActive(false);
+        IMUCanvas.SetActive(false);
     }
 }
