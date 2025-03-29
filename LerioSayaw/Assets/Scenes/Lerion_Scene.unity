@@ -172801,6 +172801,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraHead: {fileID: 1703869376}
   audioSource: {fileID: 1703869380}
+  points: {fileID: 2111679321}
 --- !u!82 &1703869380
 AudioSource:
   m_ObjectHideFlags: 0

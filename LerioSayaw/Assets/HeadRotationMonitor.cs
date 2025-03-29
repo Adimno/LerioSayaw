@@ -7,6 +7,8 @@ public class HeadRotationMonitor : MonoBehaviour
     public GameObject cameraHead;
     public AudioSource audioSource;
 
+    public TotalPoints points;
+
      void Start(){
       this.enabled = false; // Disable this script
      }
@@ -18,6 +20,7 @@ public class HeadRotationMonitor : MonoBehaviour
         if (yRotation >= 160f && yRotation <= 200f)
         {
             Debug.Log("Player is looking backward!");
+            points.IncrementPoints(0.5);
             audioSource.Play();
             this.enabled = false; // Disable this script
         }
