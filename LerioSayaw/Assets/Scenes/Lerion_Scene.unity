@@ -996,7 +996,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Figure :'
+  m_text: 'Figure:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a6446991ef31ced4190c53c206cf4b3e, type: 2}
   m_sharedMaterial: {fileID: -9221056233183343877, guid: a6446991ef31ced4190c53c206cf4b3e, type: 2}
@@ -1059,7 +1059,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -511.97375, w: -2.9898682}
+  m_margin: {x: 0, y: 0, z: -1032.9885, w: -62.672485}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1089,7 +1089,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -763, y: 650}
+  m_AnchoredPosition: {x: -1067, y: 650}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &13050951
@@ -2943,6 +2943,7 @@ GameObject:
   - component: {fileID: 33990590}
   - component: {fileID: 33990588}
   - component: {fileID: 33990589}
+  - component: {fileID: 33990594}
   m_Layer: 0
   m_Name: Wall69
   m_TagString: Untagged
@@ -3090,6 +3091,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 33990586}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &33990594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33990586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08ae4f44dca5e754b96a5956cf6061f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  displayText: {fileID: 12386622}
+  player: {fileID: 575404051}
+  steps:
+  - {fileID: 1061507818}
+  - {fileID: 2067467837}
+  - {fileID: 33990586}
+  - {fileID: 1839749708}
+  - {fileID: 522672382}
+  - {fileID: 1077320963}
 --- !u!1 &34101979
 GameObject:
   m_ObjectHideFlags: 0
@@ -17838,7 +17860,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &198981383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17880,7 +17902,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c07274ea12caf74408de4b82e98c05b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 10
 --- !u!1 &199766086
 GameObject:
   m_ObjectHideFlags: 0
@@ -25236,7 +25258,6 @@ GameObject:
   - component: {fileID: 272780495}
   - component: {fileID: 272780494}
   - component: {fileID: 272780493}
-  - component: {fileID: 272780492}
   m_Layer: 0
   m_Name: Wall52
   m_TagString: Untagged
@@ -25244,25 +25265,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &272780492
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 272780491}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08ae4f44dca5e754b96a5956cf6061f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayText: {fileID: 12386622}
-  player: {fileID: 575404051}
-  step1: {fileID: 1061507818}
-  step52: {fileID: 272780491}
-  step106: {fileID: 1991445733}
-  step142: {fileID: 465934794}
-  step178: {fileID: 1238158477}
 --- !u!114 &272780493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44941,7 +44943,6 @@ GameObject:
   - component: {fileID: 465934798}
   - component: {fileID: 465934797}
   - component: {fileID: 465934796}
-  - component: {fileID: 465934795}
   m_Layer: 0
   m_Name: Wall142
   m_TagString: Untagged
@@ -44949,25 +44950,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &465934795
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 465934794}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08ae4f44dca5e754b96a5956cf6061f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayText: {fileID: 12386622}
-  player: {fileID: 575404051}
-  step1: {fileID: 1061507818}
-  step52: {fileID: 272780491}
-  step106: {fileID: 1991445733}
-  step142: {fileID: 465934794}
-  step178: {fileID: 1238158477}
 --- !u!114 &465934796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47864,11 +47846,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayText: {fileID: 12386622}
   player: {fileID: 575404051}
-  step1: {fileID: 1547611878}
-  step52: {fileID: 1845545551}
-  step106: {fileID: 1443149321}
-  step142: {fileID: 492697571}
-  step178: {fileID: 2071373197}
+  steps:
+  - {fileID: 1547611878}
+  - {fileID: 1845545551}
+  - {fileID: 1443149321}
+  - {fileID: 492697571}
+  - {fileID: 2071373197}
+  - {fileID: 1020099254}
 --- !u!1 &494171535
 GameObject:
   m_ObjectHideFlags: 0
@@ -50665,6 +50649,7 @@ GameObject:
   - component: {fileID: 522672386}
   - component: {fileID: 522672384}
   - component: {fileID: 522672385}
+  - component: {fileID: 522672390}
   m_Layer: 0
   m_Name: Wall133
   m_TagString: Untagged
@@ -50812,6 +50797,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 522672382}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &522672390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 522672382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08ae4f44dca5e754b96a5956cf6061f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  displayText: {fileID: 12386622}
+  player: {fileID: 575404051}
+  steps:
+  - {fileID: 1061507818}
+  - {fileID: 2067467837}
+  - {fileID: 33990586}
+  - {fileID: 1839749708}
+  - {fileID: 522672382}
+  - {fileID: 1077320963}
 --- !u!1 &522717252
 GameObject:
   m_ObjectHideFlags: 0
@@ -101443,6 +101449,7 @@ GameObject:
   - component: {fileID: 1020099258}
   - component: {fileID: 1020099256}
   - component: {fileID: 1020099257}
+  - component: {fileID: 1020099262}
   m_Layer: 0
   m_Name: Wall215
   m_TagString: Untagged
@@ -101590,6 +101597,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1020099254}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1020099262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020099254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08ae4f44dca5e754b96a5956cf6061f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  displayText: {fileID: 12386622}
+  player: {fileID: 575404051}
+  steps:
+  - {fileID: 1547611878}
+  - {fileID: 1845545551}
+  - {fileID: 1443149321}
+  - {fileID: 492697571}
+  - {fileID: 2071373197}
+  - {fileID: 1020099254}
 --- !u!1 &1020101239
 GameObject:
   m_ObjectHideFlags: 0
@@ -106300,11 +106328,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayText: {fileID: 12386622}
   player: {fileID: 575404051}
-  step1: {fileID: 1061507818}
-  step52: {fileID: 272780491}
-  step106: {fileID: 1991445733}
-  step142: {fileID: 465934794}
-  step178: {fileID: 1238158477}
+  steps:
+  - {fileID: 1061507818}
+  - {fileID: 2067467837}
+  - {fileID: 33990586}
+  - {fileID: 1839749708}
+  - {fileID: 522672382}
+  - {fileID: 1077320963}
 --- !u!114 &1061507821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107030,6 +107060,7 @@ GameObject:
   - component: {fileID: 1067600102}
   - component: {fileID: 1067600104}
   - component: {fileID: 1067600103}
+  - component: {fileID: 1067600105}
   m_Layer: 0
   m_Name: Figures Value
   m_TagString: Untagged
@@ -107076,7 +107107,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 6/6
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -107153,6 +107186,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1067600101}
   m_CullTransparentMesh: 1
+--- !u!114 &1067600105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067600101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc7463f706535604fa3dd185c42584f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  progressText: {fileID: 1067600103}
 --- !u!1 &1068504376
 GameObject:
   m_ObjectHideFlags: 0
@@ -107968,6 +108014,7 @@ GameObject:
   - component: {fileID: 1077320967}
   - component: {fileID: 1077320965}
   - component: {fileID: 1077320966}
+  - component: {fileID: 1077320971}
   m_Layer: 0
   m_Name: Wall165
   m_TagString: Untagged
@@ -108115,6 +108162,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1077320963}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1077320971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077320963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08ae4f44dca5e754b96a5956cf6061f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  displayText: {fileID: 12386622}
+  player: {fileID: 575404051}
+  steps:
+  - {fileID: 1061507818}
+  - {fileID: 2067467837}
+  - {fileID: 33990586}
+  - {fileID: 1839749708}
+  - {fileID: 522672382}
+  - {fileID: 1077320963}
 --- !u!1 &1078040438
 GameObject:
   m_ObjectHideFlags: 0
@@ -124213,8 +124281,6 @@ GameObject:
   - component: {fileID: 1238158483}
   - component: {fileID: 1238158479}
   - component: {fileID: 1238158482}
-  - component: {fileID: 1238158481}
-  - component: {fileID: 1238158480}
   m_Layer: 0
   m_Name: Wall178
   m_TagString: Untagged
@@ -124264,44 +124330,6 @@ MonoBehaviour:
   miss: {fileID: 1129951566}
   error: {fileID: 1602131836}
   correct: {fileID: 1814518757}
---- !u!114 &1238158480
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1238158477}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08ae4f44dca5e754b96a5956cf6061f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayText: {fileID: 12386622}
-  player: {fileID: 575404051}
-  step1: {fileID: 1061507818}
-  step52: {fileID: 272780491}
-  step106: {fileID: 1991445733}
-  step142: {fileID: 465934794}
-  step178: {fileID: 1238158477}
---- !u!114 &1238158481
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1238158477}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08ae4f44dca5e754b96a5956cf6061f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayText: {fileID: 12386622}
-  player: {fileID: 575404051}
-  step1: {fileID: 1061507818}
-  step52: {fileID: 272780491}
-  step106: {fileID: 1991445733}
-  step142: {fileID: 465934794}
-  step178: {fileID: 1238158477}
 --- !u!114 &1238158482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145126,11 +145154,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayText: {fileID: 12386622}
   player: {fileID: 575404051}
-  step1: {fileID: 1547611878}
-  step52: {fileID: 1845545551}
-  step106: {fileID: 1443149321}
-  step142: {fileID: 492697571}
-  step178: {fileID: 2071373197}
+  steps:
+  - {fileID: 1547611878}
+  - {fileID: 1845545551}
+  - {fileID: 1443149321}
+  - {fileID: 492697571}
+  - {fileID: 2071373197}
+  - {fileID: 1020099254}
 --- !u!1 &1443217742
 GameObject:
   m_ObjectHideFlags: 0
@@ -155669,7 +155699,6 @@ GameObject:
   - component: {fileID: 1547611885}
   - component: {fileID: 1547611886}
   - component: {fileID: 1547611887}
-  - component: {fileID: 1547611888}
   - component: {fileID: 1547611889}
   m_Layer: 0
   m_Name: Wall1
@@ -155818,25 +155847,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 575404051}
   percent: {fileID: 2111679322}
---- !u!114 &1547611888
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1547611878}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08ae4f44dca5e754b96a5956cf6061f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayText: {fileID: 12386622}
-  player: {fileID: 575404051}
-  step1: {fileID: 1547611878}
-  step52: {fileID: 1845545551}
-  step106: {fileID: 1443149321}
-  step142: {fileID: 492697571}
-  step178: {fileID: 2071373197}
 --- !u!114 &1547611889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -155851,11 +155861,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayText: {fileID: 12386622}
   player: {fileID: 575404051}
-  step1: {fileID: 1547611878}
-  step52: {fileID: 1845545551}
-  step106: {fileID: 1443149321}
-  step142: {fileID: 492697571}
-  step178: {fileID: 2071373197}
+  steps:
+  - {fileID: 1547611878}
+  - {fileID: 1845545551}
+  - {fileID: 1443149321}
+  - {fileID: 492697571}
+  - {fileID: 2071373197}
+  - {fileID: 1020099254}
 --- !u!1 &1549255817
 GameObject:
   m_ObjectHideFlags: 0
@@ -187061,6 +187073,7 @@ GameObject:
   - component: {fileID: 1839749712}
   - component: {fileID: 1839749710}
   - component: {fileID: 1839749711}
+  - component: {fileID: 1839749716}
   m_Layer: 0
   m_Name: Wall101
   m_TagString: Untagged
@@ -187208,6 +187221,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1839749708}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1839749716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839749708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08ae4f44dca5e754b96a5956cf6061f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  displayText: {fileID: 12386622}
+  player: {fileID: 575404051}
+  steps:
+  - {fileID: 1061507818}
+  - {fileID: 2067467837}
+  - {fileID: 33990586}
+  - {fileID: 1839749708}
+  - {fileID: 522672382}
+  - {fileID: 1077320963}
 --- !u!1 &1840239706
 GameObject:
   m_ObjectHideFlags: 0
@@ -188174,11 +188208,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayText: {fileID: 12386622}
   player: {fileID: 575404051}
-  step1: {fileID: 1547611878}
-  step52: {fileID: 1845545551}
-  step106: {fileID: 1443149321}
-  step142: {fileID: 492697571}
-  step178: {fileID: 2071373197}
+  steps:
+  - {fileID: 1547611878}
+  - {fileID: 1845545551}
+  - {fileID: 1443149321}
+  - {fileID: 492697571}
+  - {fileID: 2071373197}
+  - {fileID: 1020099254}
 --- !u!1 &1845916167
 GameObject:
   m_ObjectHideFlags: 0
@@ -202132,7 +202168,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1973897553
 Transform:
   m_ObjectHideFlags: 0
@@ -203846,7 +203882,6 @@ GameObject:
   - component: {fileID: 1991445737}
   - component: {fileID: 1991445736}
   - component: {fileID: 1991445735}
-  - component: {fileID: 1991445734}
   m_Layer: 0
   m_Name: Wall106
   m_TagString: Untagged
@@ -203854,25 +203889,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1991445734
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1991445733}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08ae4f44dca5e754b96a5956cf6061f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayText: {fileID: 12386622}
-  player: {fileID: 575404051}
-  step1: {fileID: 1061507818}
-  step52: {fileID: 272780491}
-  step106: {fileID: 1991445733}
-  step142: {fileID: 465934794}
-  step178: {fileID: 1238158477}
 --- !u!114 &1991445735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211679,6 +211695,7 @@ GameObject:
   - component: {fileID: 2067467841}
   - component: {fileID: 2067467839}
   - component: {fileID: 2067467840}
+  - component: {fileID: 2067467845}
   m_Layer: 0
   m_Name: Wall36
   m_TagString: Untagged
@@ -211826,6 +211843,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2067467837}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2067467845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2067467837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08ae4f44dca5e754b96a5956cf6061f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  displayText: {fileID: 12386622}
+  player: {fileID: 575404051}
+  steps:
+  - {fileID: 1061507818}
+  - {fileID: 2067467837}
+  - {fileID: 33990586}
+  - {fileID: 1839749708}
+  - {fileID: 522672382}
+  - {fileID: 1077320963}
 --- !u!1 &2069370627
 GameObject:
   m_ObjectHideFlags: 0
@@ -212110,7 +212148,6 @@ GameObject:
   - component: {fileID: 2071373199}
   - component: {fileID: 2071373200}
   - component: {fileID: 2071373205}
-  - component: {fileID: 2071373206}
   m_Layer: 0
   m_Name: Wall178
   m_TagString: Untagged
@@ -212272,30 +212309,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayText: {fileID: 12386622}
   player: {fileID: 575404051}
-  step1: {fileID: 1547611878}
-  step52: {fileID: 1845545551}
-  step106: {fileID: 1443149321}
-  step142: {fileID: 492697571}
-  step178: {fileID: 2071373197}
---- !u!114 &2071373206
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2071373197}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08ae4f44dca5e754b96a5956cf6061f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayText: {fileID: 12386622}
-  player: {fileID: 575404051}
-  step1: {fileID: 1547611878}
-  step52: {fileID: 1845545551}
-  step106: {fileID: 1443149321}
-  step142: {fileID: 492697571}
-  step178: {fileID: 2071373197}
+  steps:
+  - {fileID: 1547611878}
+  - {fileID: 1845545551}
+  - {fileID: 1443149321}
+  - {fileID: 492697571}
+  - {fileID: 2071373197}
+  - {fileID: 1020099254}
 --- !u!1 &2071391831
 GameObject:
   m_ObjectHideFlags: 0

@@ -4,16 +4,9 @@ using TMPro;
 public class FigureCounter : MonoBehaviour
 {
     public TextMeshProUGUI displayText; // Assign a UI Text element in the Inspector
-
-    // Assign the player GameObject and step GameObjects in the Unity Inspector
+    
     public GameObject player;
-    public GameObject step1;
-    public GameObject step52;
-    public GameObject step106;
-    public GameObject step142;
-    public GameObject step178;
-    // public GameObject step215;
-
+    public GameObject[] steps; // Assign in order: step1, step52, step106, step142, step178, step215
 
     private string[] wallMessages =
     {
@@ -25,20 +18,23 @@ public class FigureCounter : MonoBehaviour
         "Figure 6: LABAS PASOK",
     };
 
+    private int currentStep = 0;
+
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject == player) // Check if the colliding object is the assigned player
+        if (other.gameObject == player)
         {
-            Debug.Log("Player collided with " + gameObject.name);
-
-            if (gameObject == step1) displayText.text = wallMessages[0];
-            else if (gameObject == step52) displayText.text = wallMessages[1];
-            else if (gameObject == step106) displayText.text = wallMessages[2];
-            else if (gameObject == step142) displayText.text = wallMessages[3];
-            else if (gameObject == step178) displayText.text = wallMessages[4];
-            // else if (gameObject == step215) displayText.text = wallMessages[5];
+            for (int i = 0; i < steps.Length; i++)
+            {
+                if (gameObject == steps[i])
+                {
+                    currentStep = i + 1; // Track progress (1-based index)
+                    displayText.text = wallMessages[i];
+                    Debug.Log("Player reached step " + currentStep);
+                    FindObjectOfType<FigureTracker>().UpdateProgress(); // Call progress update
+                    break;
+                }
+            }
         }
     }
-
-
 }
