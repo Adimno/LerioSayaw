@@ -1260,12 +1260,12 @@ GameObject:
   - component: {fileID: 139821313}
   - component: {fileID: 139821312}
   m_Layer: 0
-  m_Name: topwallroom
+  m_Name: WallCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!65 &139821312
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1285,8 +1285,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 3.0328124, z: 1}
+  m_Center: {x: 0, y: -1.0164067, z: 0}
 --- !u!23 &139821313
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1294,7 +1294,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 139821311}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1346,8 +1346,8 @@ Transform:
   m_GameObject: {fileID: 139821311}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.1587205, y: 2.4391, z: 2.7797394}
-  m_LocalScale: {x: -0.22963, y: 0.97581404, z: 8.666903}
+  m_LocalPosition: {x: 5.1587205, y: 1.3265, z: 2.7797394}
+  m_LocalScale: {x: -0.22963, y: 3.2010605, z: 8.666903}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 846763258}
@@ -6022,7 +6022,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59a0f1e6670df51498aa9111dc7b45d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  welcomeCanvas: {fileID: 0}
+  welcomeCanvas: {fileID: 1388014954}
   LookCanvas: {fileID: 1174251416}
   CongratsCanvas: {fileID: 1498697623}
   GoodluckCanvas: {fileID: 1498121893}
@@ -6031,6 +6031,8 @@ MonoBehaviour:
   ScoringSystemCanvas: {fileID: 1178322894}
   IMUCanvas: {fileID: 887435782}
   FiguresCanvas: {fileID: 152640434}
+  WallCollider: {fileID: 139821311}
+  MenuTutorial: {fileID: 1765141295}
 --- !u!1 &649506774
 GameObject:
   m_ObjectHideFlags: 0

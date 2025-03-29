@@ -8,6 +8,10 @@ public class DanceCanvasHTP : MonoBehaviour
     public GameObject WallAppearanceCanvas, GameplayFlowCanvas, ScoringSystemCanvas, IMUCanvas;
     public GameObject FiguresCanvas;
 
+    // assets 
+
+    public GameObject WallCollider, MenuTutorial; 
+
     void Start()
     {
         // Start with only the welcome screen active
@@ -20,6 +24,8 @@ public class DanceCanvasHTP : MonoBehaviour
         ScoringSystemCanvas.SetActive(false);
         IMUCanvas.SetActive(false);
         FiguresCanvas.SetActive(false);
+        WallCollider.SetActive(true);
+        MenuTutorial.SetActive(false);
 
     }
 
@@ -36,7 +42,8 @@ public class DanceCanvasHTP : MonoBehaviour
         FiguresCanvas.SetActive(false);
         
     }
-
+  
+  // start game 
     public void LookCanvasLogic()
     {
         LookCanvas.SetActive(true);
@@ -48,6 +55,8 @@ public class DanceCanvasHTP : MonoBehaviour
         ScoringSystemCanvas.SetActive(false);
         IMUCanvas.SetActive(false);
         FiguresCanvas.SetActive(false);
+        WallCollider.SetActive(false);
+        MenuTutorial.SetActive(true);
         
     }
 
