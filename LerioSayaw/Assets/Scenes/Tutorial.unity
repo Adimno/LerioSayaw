@@ -644,7 +644,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMeshPros:
-  - {fileID: 1073888728}
   - {fileID: 1970969507}
   typingSpeed: 0.06
   delayBetweenTexts: 0.5
@@ -5860,7 +5859,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMeshPros:
-  - {fileID: 245804909}
   - {fileID: 552520700}
   typingSpeed: 0.06
   delayBetweenTexts: 0.5
@@ -7178,7 +7176,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMeshPros:
-  - {fileID: 421529695}
   - {fileID: 295777965}
   typingSpeed: 0.06
   delayBetweenTexts: 0.5
@@ -13423,7 +13420,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMeshPros:
-  - {fileID: 215196410}
   - {fileID: 743092982}
   typingSpeed: 0.06
   delayBetweenTexts: 0.5
@@ -16600,7 +16596,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMeshPros:
-  - {fileID: 2134548233}
   - {fileID: 1848538082}
   typingSpeed: 0.06
   delayBetweenTexts: 0.5
@@ -16968,7 +16963,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: 0.22663505}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
