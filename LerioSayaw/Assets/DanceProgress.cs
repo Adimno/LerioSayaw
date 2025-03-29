@@ -21,37 +21,10 @@ public class DanceProgress : MonoBehaviour
         // Ensure that we only process this once, and if the other object is one of the designated parts (Head, Right, Left)
         if (!hasCollided && (other.gameObject == player))
         {
-            //percent.IncrementTaskPercentage(0.373f);
-            percent.IncrementTaskPercentage(5);
+
+            percent.IncrementTaskPercentage(0.3731f);
             Debug.Log(percent.TaskPercentageValue);
-            //Debug.Log("MALI");
-            //if (music == "Jotabal")
-            //{
-            //    // Use 'StartDance.GetGender()' to call the static method
-            //    if (StartDance.GetGender() == "Male")
-            //    {
-            //        percent.IncrementTaskPercentage(1.69f);
-            //    }
-            //    else if (StartDance.GetGender() == "Female")
-            //    {
-            //        percent.IncrementTaskPercentage(1);
-            //    }
 
-            //}
-
-            //if (music == "Polkabal")
-            //{
-            //    // Use 'StartDance.GetGender()' to call the static method
-            //    if (StartDance.GetGender() == "Male")
-            //    {
-            //        percent.IncrementTaskPercentage(1.69f);
-            //    }
-            //    else if (StartDance.GetGender() == "Female")
-            //    {
-            //        percent.IncrementTaskPercentage(1);
-            //    }
-
-            //}
 
             hasCollided = true;
         }

@@ -34,7 +34,7 @@ public class TotalPoints : MonoBehaviour
         points -= decrementValue;
         if (points < 0)
         {
-            points = 0; 
+            points = 0;
             Steps.SetActive(false);
             GameOver.SetActive(true);
         }
