@@ -6,16 +6,22 @@ public class ErrorCounter : MonoBehaviour
     public GameObject ResultCanvas;
     public GameObject Steps;
     public AudioSource GameOver;
+    public TotalPoints points;
 
     public void Increment()
     {
         counter++;
-        if (counter == 1000)
+        if (counter == 5)
+        {
+            points.DecrementPoints(2);
+        }
+        else if (counter == 10)
         {
             if (!GameOver.isPlaying) // Check if the sound isn't already playing
             {
                 GameOver.Play();
             }
+            
             ResultCanvas.SetActive(true);
             Steps.SetActive(false);
         }

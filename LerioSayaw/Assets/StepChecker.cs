@@ -11,6 +11,8 @@ public class StepChecker : MonoBehaviour
     public GameObject wrongDetector;
     private bool hasTriggered = false; // Ensures actions run only once
     public GameObject perfect, great, miss;
+    public ErrorCounter error;
+    public CorrectCounter correct;
     //public GameObject Player;
 
     void Update()
@@ -54,29 +56,32 @@ public class StepChecker : MonoBehaviour
 
             if (allTrue)
             {
-                
-                points.IncrementPoints(1);
+                error.Reset();
+                points.IncrementPoints(2);
                 perfectAudio.Play();
                 perfect.SetActive(true);
                 great.SetActive(false);
                 miss.SetActive(false);
+                correct.Increment();
             }
             else if (anyTrue) // As long as there's a true, show "great"
             {
-                points.IncrementPoints(0.5);
+                error.Reset();
+                points.IncrementPoints(1);
                 perfect.SetActive(false);
                 great.SetActive(true);
                 miss.SetActive(false);
                 greatAudio.Play();
+                correct.Increment();
             }
             else // If none are true, show "miss"
             {
-                points.DecrementPoints(1);
-                
+                error.Increment();
                 perfect.SetActive(false);
                 great.SetActive(false);
                 miss.SetActive(true);
                 missAudio.Play();
+                correct.Reset();
             }
         }
     }
