@@ -22237,8 +22237,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 202366668}
-        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+      - m_Target: {fileID: 5638779662490250224}
+        m_TargetAssemblyTypeName: MoveToDance, Assembly-CSharp
         m_MethodName: ChangeScene1
         m_Mode: 5
         m_Arguments:
@@ -33791,8 +33791,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 202366668}
-        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+      - m_Target: {fileID: 5638779662490250225}
+        m_TargetAssemblyTypeName: MoveToCarinosa, Assembly-CSharp
         m_MethodName: ChangeScene1
         m_Mode: 5
         m_Arguments:
@@ -69686,13 +69686,15 @@ GameObject:
   - component: {fileID: 1974413205}
   - component: {fileID: 1974413204}
   - component: {fileID: 1974413206}
+  - component: {fileID: 5638779662490250224}
+  - component: {fileID: 5638779662490250225}
   m_Layer: 5
   m_Name: Performance Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!222 &5638779662490250223
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -69701,6 +69703,32 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5638779662490250209}
   m_CullTransparentMesh: 1
+--- !u!114 &5638779662490250224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5638779662490250209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7e2b24544803a049a84f074f92fcc1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  music: Lerion
+--- !u!114 &5638779662490250225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5638779662490250209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3354ed999ede5f146a320b979ed879e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  music: Carinosa
 --- !u!1 &5638779662529143624
 GameObject:
   m_ObjectHideFlags: 0
