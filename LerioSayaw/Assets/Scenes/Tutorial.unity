@@ -8172,9 +8172,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "The game includes dance figures from Lerion and Cari\xF1osa. Lerion steps
-    involve Libad, Kunday, Katok, Kawit, and Labas-Pasok, focusing on smooth movements.
-    Cari\xF1osa features Three Steps and Point, Pointing, Back-to-Back, and Flirting,
-    highlighting expressive gestures."
+    involve Libad, Kunday, Katok, Step Swing/Kamayan, Kawit, and Labas-Pasok, focusing
+    on smooth movements. Cari\xF1osa features Three Steps and Point, Touch Step,
+    Three-step Forward and Back to Back, Hide and Seek with Fan, Kneeling and Fanning,
+    Hide and Seek with Handkerchief, Flirting with Handkerchief, and Flirting, highlighting
+    expressive gestures."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a6446991ef31ced4190c53c206cf4b3e, type: 2}
   m_sharedMaterial: {fileID: -9221056233183343877, guid: a6446991ef31ced4190c53c206cf4b3e, type: 2}
@@ -8237,7 +8239,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: 0.09247905}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -14745,7 +14747,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &1388014955
 AudioSource:
   m_ObjectHideFlags: 0
