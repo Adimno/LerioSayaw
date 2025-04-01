@@ -6,12 +6,19 @@ using UnityEngine.SceneManagement;
 public class DanceCanvas : MonoBehaviour
 {
     public GameObject welcome, characterSelection;
+    private string music;
 
+    private void Awake()
+    {
+        // Fetch the stored music value once in Awake or Start
+        music = PlayerPrefs.GetString("music");
+    }
     // Start is called before the first frame update
     void Start()
     {
         welcome.SetActive(true);
         characterSelection.SetActive(false);
+        Debug.Log("Music: " + music);
     }
 
     public void welcomeShow()
