@@ -6177,7 +6177,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &608596280
 Transform:
   m_ObjectHideFlags: 0
@@ -12353,7 +12353,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 91c5bbcef2dd20148bdc8ae9a23ab8bf, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 55efb4bbf57188b4abe0f7697d07e8c8, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -14745,7 +14745,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &1388014955
 AudioSource:
   m_ObjectHideFlags: 0
@@ -20144,12 +20144,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "The player must mimic the shape of the wall they are standing on by matching
-    their movement accordingly. Each new wall presents a specific stance or step
-    that the player must replicate. Scoring is based on accuracy: Perfect earns 1
-    point, Great gives 5 points, and a Miss deducts 1 point. The walls remain stationary,
-    and the challenge lies in precisely mirroring each wall\u2019s position to maintain
-    rhythm and maximize the score."
+  m_text: 'The player must mimic the shape of the wall they are standing on by matching
+    their movements accordingly. Each new wall presents a specific stance or step
+    that the player must replicate. Scoring is based on accuracy: a Perfect earns
+    2 points, a Great earns 1 point, and every 5 misses results in a deduction of
+    2 points. Each miss deducts 1 point. The first 5 incorrect steps result in a
+    score of 0. If the player gets 10 consecutive incorrect steps, the game is over.
+    For every 5 consecutive correct steps (a mix of Perfect and Great), the player
+    earns a +5 bonus.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a6446991ef31ced4190c53c206cf4b3e, type: 2}
   m_sharedMaterial: {fileID: -9221056233183343877, guid: a6446991ef31ced4190c53c206cf4b3e, type: 2}
@@ -20176,8 +20178,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.055
-  m_fontSizeBase: 0.055
+  m_fontSize: 0.05
+  m_fontSizeBase: 0.05
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
