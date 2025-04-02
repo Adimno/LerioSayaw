@@ -66418,7 +66418,7 @@ MonoBehaviour:
     - B) Maglalatik
     - C) Tinikling
     - D) Pandanggo sa Ilaw
-    correctAnswer: B) Maglalatik
+    correctAnswer: A) Leron, Leron Sinta
   - question: What is the order of the Lerion figures?
     choices:
     - 'A) Figure 1: KUNDAY, Figure 2:  LIBAD, Figure 3: KATOK, Figure 4: STEP SWING/KAMAYAN,
@@ -66429,7 +66429,7 @@ MonoBehaviour:
       Figure 5: KAWIT, Figure 6: LABAS PASOK'
     - 'D) Figure 1: LABAS PASOK, Figure 2: KUNDAY, Figure 3: KATOK, Figure 4: STEP
       SWING/KAMAYAN, Figure 5: KAWIT, Figure 6: LIBAD'
-    correctAnswer: 'A) Figure 1: KUNDAY, Figure 2:  LIBAD, Figure 3: KATOK, Figure
+    correctAnswer: 'C) Figure 1: LIBAD, Figure 2: KUNDAY, Figure 3: KATOK, Figure
       4: STEP SWING/KAMAYAN, Figure 5: KAWIT, Figure 6: LABAS PASOK'
   - question: The Lerion dance primarily reflects what kind of Filipino village life?
     choices:
@@ -66538,7 +66538,7 @@ MonoBehaviour:
     - 'B) Maria Clara gown and Barong Tagalog '
     - C) T-shirt and jeans
     - D) Traditional Japanese kimonos
-    correctAnswer: C) Harvest and community gatherings
+    correctAnswer: B) Maria Clara gown and Barong Tagalog gatherings
   - question: "The Cari\xF1osa dance is associated with which cultural practice"
     choices:
     - A) Religious ceremonies
