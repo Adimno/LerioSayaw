@@ -18,13 +18,34 @@ public class DanceProgress : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        // Ensure that we only process this once, and if the other object is one of the designated parts (Head, Right, Left)
         if (!hasCollided && (other.gameObject == player))
         {
 
-            percent.IncrementTaskPercentage(0.3731f);
-            Debug.Log(percent.TaskPercentageValue);
+            if (music == "Lerion")
+            {
+                if (StartDance.GetGender() == "Male")
+                {
+                    percent.IncrementTaskPercentage(0.5025f);
+                }
+                else if (StartDance.GetGender() == "Female")
+                {
+                    percent.IncrementTaskPercentage(0.3731f);
+                }
 
+            }
+
+            if (music == "Carinosa")
+            {
+                if (StartDance.GetGender() == "Male")
+                {
+                    percent.IncrementTaskPercentage(1.0204f);
+                }
+                else if (StartDance.GetGender() == "Female")
+                {
+                    percent.IncrementTaskPercentage(0.95238f);
+                }
+
+            }
 
             hasCollided = true;
         }
