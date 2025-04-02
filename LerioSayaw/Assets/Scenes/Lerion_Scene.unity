@@ -2958,6 +2958,7 @@ GameObject:
   - component: {fileID: 33990588}
   - component: {fileID: 33990589}
   - component: {fileID: 33990594}
+  - component: {fileID: 33990595}
   m_Layer: 0
   m_Name: Wall69
   m_TagString: Untagged
@@ -3126,6 +3127,33 @@ MonoBehaviour:
   - {fileID: 1839749708}
   - {fileID: 522672382}
   - {fileID: 1077320963}
+--- !u!54 &33990595
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33990586}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &34101979
 GameObject:
   m_ObjectHideFlags: 0
@@ -17916,7 +17944,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c07274ea12caf74408de4b82e98c05b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 10
 --- !u!1 &199766086
 GameObject:
   m_ObjectHideFlags: 0
@@ -18752,7 +18780,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &207718500
 Transform:
   m_ObjectHideFlags: 0
@@ -50692,6 +50720,7 @@ GameObject:
   - component: {fileID: 522672384}
   - component: {fileID: 522672385}
   - component: {fileID: 522672390}
+  - component: {fileID: 522672391}
   m_Layer: 0
   m_Name: Wall133
   m_TagString: Untagged
@@ -50860,6 +50889,33 @@ MonoBehaviour:
   - {fileID: 1839749708}
   - {fileID: 522672382}
   - {fileID: 1077320963}
+--- !u!54 &522672391
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 522672382}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &522717252
 GameObject:
   m_ObjectHideFlags: 0
@@ -106453,6 +106509,7 @@ GameObject:
   - component: {fileID: 1061507822}
   - component: {fileID: 1061507821}
   - component: {fileID: 1061507820}
+  - component: {fileID: 1061507828}
   m_Layer: 0
   m_Name: Wall1
   m_TagString: Untagged
@@ -106621,6 +106678,33 @@ Transform:
   - {fileID: 2066497113}
   m_Father: {fileID: 758980785}
   m_LocalEulerAnglesHint: {x: 0, y: 1, z: 0}
+--- !u!54 &1061507828
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061507818}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1061748347
 GameObject:
   m_ObjectHideFlags: 0
@@ -107206,7 +107290,6 @@ GameObject:
   - component: {fileID: 1067600102}
   - component: {fileID: 1067600104}
   - component: {fileID: 1067600103}
-  - component: {fileID: 1067600105}
   m_Layer: 0
   m_Name: Figures Value
   m_TagString: Untagged
@@ -107332,19 +107415,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1067600101}
   m_CullTransparentMesh: 1
---- !u!114 &1067600105
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1067600101}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc7463f706535604fa3dd185c42584f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  progressText: {fileID: 1067600103}
 --- !u!1 &1068504376
 GameObject:
   m_ObjectHideFlags: 0
@@ -108175,6 +108245,7 @@ GameObject:
   - component: {fileID: 1077320965}
   - component: {fileID: 1077320966}
   - component: {fileID: 1077320971}
+  - component: {fileID: 1077320972}
   m_Layer: 0
   m_Name: Wall165
   m_TagString: Untagged
@@ -108343,6 +108414,33 @@ MonoBehaviour:
   - {fileID: 1839749708}
   - {fileID: 522672382}
   - {fileID: 1077320963}
+--- !u!54 &1077320972
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077320963}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1078040438
 GameObject:
   m_ObjectHideFlags: 0
@@ -187476,6 +187574,7 @@ GameObject:
   - component: {fileID: 1839749710}
   - component: {fileID: 1839749711}
   - component: {fileID: 1839749716}
+  - component: {fileID: 1839749717}
   m_Layer: 0
   m_Name: Wall101
   m_TagString: Untagged
@@ -187644,6 +187743,33 @@ MonoBehaviour:
   - {fileID: 1839749708}
   - {fileID: 522672382}
   - {fileID: 1077320963}
+--- !u!54 &1839749717
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839749708}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1840239706
 GameObject:
   m_ObjectHideFlags: 0
@@ -212140,6 +212266,7 @@ GameObject:
   - component: {fileID: 2067467839}
   - component: {fileID: 2067467840}
   - component: {fileID: 2067467845}
+  - component: {fileID: 2067467846}
   m_Layer: 0
   m_Name: Wall36
   m_TagString: Untagged
@@ -212308,6 +212435,33 @@ MonoBehaviour:
   - {fileID: 1839749708}
   - {fileID: 522672382}
   - {fileID: 1077320963}
+--- !u!54 &2067467846
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2067467837}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &2069370627
 GameObject:
   m_ObjectHideFlags: 0
@@ -216741,6 +216895,7 @@ GameObject:
   - component: {fileID: 2111679320}
   - component: {fileID: 2111679321}
   - component: {fileID: 2111679322}
+  - component: {fileID: 2111679323}
   m_Layer: 0
   m_Name: score
   m_TagString: Untagged
@@ -216793,6 +216948,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   progressSlider: {fileID: 565861817}
+--- !u!114 &2111679323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2111679319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc7463f706535604fa3dd185c42584f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  progressText: {fileID: 1067600103}
 --- !u!1 &2112239452
 GameObject:
   m_ObjectHideFlags: 0
