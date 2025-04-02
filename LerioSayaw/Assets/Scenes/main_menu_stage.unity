@@ -52479,8 +52479,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Figure 1- Libad\nFigure 2 - Kunday \nFigure 3 - Katok\nFigure 4 - Kawit
-    \nFigure 5 - Kawit\nFigure 6 - Labas - Pasok"
+  m_text: "Figure 1 - Libad\nFigure 2 - Kunday \nFigure 3 - Katok\nFigure 4 - Step
+    Swing/Kamayan\nFigure 5 - Kawit\nFigure 6 - Labas - Pasok"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -52889,9 +52889,24 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Figure 1- Three Steps and Point\nFigure 2 - Pointing\nFigure 3 - Back-to-Back\nFigure
-    4 - Hide-and-Seek with Fan\nFigure 5 -  Kneeling and Fanning\nFigure 6 -  Hide-and-Seek
-    with Handkerchief \nFIgure 7 - Flirting with Handkerchief\nFigure 8 - Flirting "
+  m_text: 'Figure 1- Three Steps and Point
+
+    Figure 2 - Touch Step
+
+    Figure
+    3 - Three-step Forward and Back to Back
+
+    Figure 4 - Hide-and-Seek with Fan
+
+    Figure
+    5 -  Kneeling and Fanning
+
+    Figure 6 -  Hide and Seek with Handkerchief
+
+    FIgure
+    7 - Flirting with Handkerchief
+
+    Figure 8 - Flirting '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
