@@ -3473,7 +3473,7 @@ MonoBehaviour:
   greatAudio: {fileID: 463606155}
   missAudio: {fileID: 2117027022}
   wrongDetector: {fileID: 2082047916}
-  perfect: {fileID: 250520498}
+  perfect: {fileID: 779422557}
   great: {fileID: 250520498}
   miss: {fileID: 1660374827}
 --- !u!114 &278072372
@@ -4410,7 +4410,7 @@ MonoBehaviour:
   greatAudio: {fileID: 463606155}
   missAudio: {fileID: 2117027022}
   wrongDetector: {fileID: 2082047916}
-  perfect: {fileID: 250520498}
+  perfect: {fileID: 779422557}
   great: {fileID: 250520498}
   miss: {fileID: 1660374827}
 --- !u!114 &331100367
@@ -4638,7 +4638,7 @@ MonoBehaviour:
   greatAudio: {fileID: 463606155}
   missAudio: {fileID: 2117027022}
   wrongDetector: {fileID: 2082047916}
-  perfect: {fileID: 250520498}
+  perfect: {fileID: 779422557}
   great: {fileID: 250520498}
   miss: {fileID: 1660374827}
 --- !u!1 &332215753
@@ -4766,7 +4766,7 @@ MonoBehaviour:
   greatAudio: {fileID: 463606155}
   missAudio: {fileID: 2117027022}
   wrongDetector: {fileID: 2082047916}
-  perfect: {fileID: 250520498}
+  perfect: {fileID: 779422557}
   great: {fileID: 250520498}
   miss: {fileID: 1660374827}
 --- !u!114 &343935844
@@ -5347,7 +5347,7 @@ MonoBehaviour:
   greatAudio: {fileID: 463606155}
   missAudio: {fileID: 2117027022}
   wrongDetector: {fileID: 2082047916}
-  perfect: {fileID: 250520498}
+  perfect: {fileID: 779422557}
   great: {fileID: 250520498}
   miss: {fileID: 1660374827}
 --- !u!114 &386824640
@@ -7959,7 +7959,7 @@ MonoBehaviour:
   greatAudio: {fileID: 463606155}
   missAudio: {fileID: 2117027022}
   wrongDetector: {fileID: 2082047916}
-  perfect: {fileID: 250520498}
+  perfect: {fileID: 779422557}
   great: {fileID: 250520498}
   miss: {fileID: 1660374827}
 --- !u!114 &569365556
@@ -11306,7 +11306,7 @@ MonoBehaviour:
   greatAudio: {fileID: 463606155}
   missAudio: {fileID: 2117027022}
   wrongDetector: {fileID: 2082047916}
-  perfect: {fileID: 250520498}
+  perfect: {fileID: 779422557}
   great: {fileID: 250520498}
   miss: {fileID: 1660374827}
 --- !u!114 &792109416
@@ -12685,7 +12685,7 @@ MonoBehaviour:
   greatAudio: {fileID: 463606155}
   missAudio: {fileID: 2117027022}
   wrongDetector: {fileID: 2082047916}
-  perfect: {fileID: 250520498}
+  perfect: {fileID: 779422557}
   great: {fileID: 250520498}
   miss: {fileID: 1660374827}
 --- !u!114 &918701194
@@ -13848,7 +13848,7 @@ MonoBehaviour:
   greatAudio: {fileID: 463606155}
   missAudio: {fileID: 2117027022}
   wrongDetector: {fileID: 2082047916}
-  perfect: {fileID: 250520498}
+  perfect: {fileID: 779422557}
   great: {fileID: 250520498}
   miss: {fileID: 1660374827}
 --- !u!1 &1041966769
@@ -14309,7 +14309,7 @@ MonoBehaviour:
   greatAudio: {fileID: 463606155}
   missAudio: {fileID: 2117027022}
   wrongDetector: {fileID: 2082047916}
-  perfect: {fileID: 250520498}
+  perfect: {fileID: 779422557}
   great: {fileID: 250520498}
   miss: {fileID: 1660374827}
 --- !u!114 &1068573887
@@ -16400,7 +16400,7 @@ MonoBehaviour:
   greatAudio: {fileID: 463606155}
   missAudio: {fileID: 2117027022}
   wrongDetector: {fileID: 2082047916}
-  perfect: {fileID: 250520498}
+  perfect: {fileID: 779422557}
   great: {fileID: 250520498}
   miss: {fileID: 1660374827}
 --- !u!114 &1184357859
@@ -17129,7 +17129,7 @@ MonoBehaviour:
   greatAudio: {fileID: 463606155}
   missAudio: {fileID: 2117027022}
   wrongDetector: {fileID: 2082047916}
-  perfect: {fileID: 250520498}
+  perfect: {fileID: 779422557}
   great: {fileID: 250520498}
   miss: {fileID: 1660374827}
 --- !u!114 &1225416534
@@ -17986,7 +17986,7 @@ MonoBehaviour:
   greatAudio: {fileID: 463606155}
   missAudio: {fileID: 2117027022}
   wrongDetector: {fileID: 2082047916}
-  perfect: {fileID: 250520498}
+  perfect: {fileID: 779422557}
   great: {fileID: 250520498}
   miss: {fileID: 1660374827}
 --- !u!114 &1248410942
@@ -18879,7 +18879,7 @@ MonoBehaviour:
   greatAudio: {fileID: 463606155}
   missAudio: {fileID: 2117027022}
   wrongDetector: {fileID: 2082047916}
-  perfect: {fileID: 250520498}
+  perfect: {fileID: 779422557}
   great: {fileID: 250520498}
   miss: {fileID: 1660374827}
 --- !u!114 &1341811824
@@ -19706,7 +19706,7 @@ MonoBehaviour:
   greatAudio: {fileID: 463606155}
   missAudio: {fileID: 2117027022}
   wrongDetector: {fileID: 2082047916}
-  perfect: {fileID: 250520498}
+  perfect: {fileID: 779422557}
   great: {fileID: 250520498}
   miss: {fileID: 1660374827}
 --- !u!114 &1379490036
@@ -20701,7 +20701,7 @@ MonoBehaviour:
   greatAudio: {fileID: 463606155}
   missAudio: {fileID: 2117027022}
   wrongDetector: {fileID: 2082047916}
-  perfect: {fileID: 250520498}
+  perfect: {fileID: 779422557}
   great: {fileID: 250520498}
   miss: {fileID: 1660374827}
 --- !u!114 &1430506423
@@ -21990,7 +21990,7 @@ MonoBehaviour:
   greatAudio: {fileID: 463606155}
   missAudio: {fileID: 2117027022}
   wrongDetector: {fileID: 2082047916}
-  perfect: {fileID: 250520498}
+  perfect: {fileID: 779422557}
   great: {fileID: 250520498}
   miss: {fileID: 1660374827}
 --- !u!114 &1536075986
@@ -23074,7 +23074,7 @@ MonoBehaviour:
   greatAudio: {fileID: 463606155}
   missAudio: {fileID: 2117027022}
   wrongDetector: {fileID: 2082047916}
-  perfect: {fileID: 250520498}
+  perfect: {fileID: 779422557}
   great: {fileID: 250520498}
   miss: {fileID: 1660374827}
 --- !u!114 &1610507641
@@ -24515,7 +24515,7 @@ MonoBehaviour:
   greatAudio: {fileID: 463606155}
   missAudio: {fileID: 2117027022}
   wrongDetector: {fileID: 2082047916}
-  perfect: {fileID: 250520498}
+  perfect: {fileID: 779422557}
   great: {fileID: 250520498}
   miss: {fileID: 1660374827}
 --- !u!1 &1775913933
@@ -27869,7 +27869,7 @@ MonoBehaviour:
   greatAudio: {fileID: 463606155}
   missAudio: {fileID: 2117027022}
   wrongDetector: {fileID: 2082047916}
-  perfect: {fileID: 250520498}
+  perfect: {fileID: 779422557}
   great: {fileID: 250520498}
   miss: {fileID: 1660374827}
 --- !u!1 &2082047916
