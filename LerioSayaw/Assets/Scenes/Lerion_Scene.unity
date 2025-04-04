@@ -136042,8 +136042,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e54ee67f7bb2f54491974e76a8f7bc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaleWall: {fileID: 1549255817}
-  FemaleWall: {fileID: 1461414649}
+  MaleWall: {fileID: 2122980340}
+  FemaleWall: {fileID: 161885123}
   ResultsCanvas: {fileID: 1973897552}
   Congratulations: {fileID: 1350407572}
 --- !u!54 &1350407574
