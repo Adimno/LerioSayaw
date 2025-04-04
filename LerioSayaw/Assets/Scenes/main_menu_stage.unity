@@ -66538,7 +66538,7 @@ MonoBehaviour:
     - 'B) Maria Clara gown and Barong Tagalog '
     - C) T-shirt and jeans
     - D) Traditional Japanese kimonos
-    correctAnswer: B) Maria Clara gown and Barong Tagalog gatherings
+    correctAnswer: 'B) Maria Clara gown and Barong Tagalog '
   - question: "The Cari\xF1osa dance is associated with which cultural practice"
     choices:
     - A) Religious ceremonies
@@ -66583,7 +66583,7 @@ MonoBehaviour:
     - B) Slow and graceful
     - C) Sharp and precise
     - D) Athletic and energetic
-    correctAnswer: 'B) Slow and graceful '
+    correctAnswer: B) Slow and graceful
   - question: "What does the word Cari\xF1osa mean in English?"
     choices:
     - A) The Dancer

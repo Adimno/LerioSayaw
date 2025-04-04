@@ -83,40 +83,41 @@ public class LerionQuizManager : MonoBehaviour
         dButton.onClick.AddListener(() => CheckAnswer(question.choices[3]));
     }
 
-    private void CheckAnswer(string selectedAnswer)
-    {
-        if (currentQuestionIndex < 0 || currentQuestionIndex >= quizQuestions.Count)
+        private void CheckAnswer(string selectedAnswer)
         {
-            resultPanel.SetActive(true);
-            Debug.Log("Current question index is out of range.");
-            return;
-        }
+            if (currentQuestionIndex < 0 || currentQuestionIndex >= questionOrder.Count)
+            {
+                Debug.LogError("Current question index is out of range.");
+                return;
+            }
 
-        var correctAnswer = quizQuestions[questionOrder[currentQuestionIndex]].correctAnswer;
+            var correctAnswer = quizQuestions[questionOrder[currentQuestionIndex]].correctAnswer;
 
-        if (selectedAnswer == correctAnswer)
-        {
-            Debug.Log("Correct Answer!");
-            score++; // Increment the score for a correct answer
-        }
-        else
-        {
-            Debug.Log("Wrong Answer!");
-        }
+            if (selectedAnswer == correctAnswer)
+            {
+                Debug.Log("Correct Answer!");
+                score++; // Increment the score for a correct answer
+            }
+            else
+            {
+                Debug.Log("Wrong Answer!");
+            }
 
-        UpdateScoreText(); // Update the score display
+            UpdateScoreText(); // Update the score display
 
-        // Move to the next question
-        currentQuestionIndex++;
-        if (currentQuestionIndex < quizQuestions.Count)
-        {
-            DisplayQuestion();
+            // Move to the next question
+            currentQuestionIndex++;
+
+            if (currentQuestionIndex < questionOrder.Count)
+            {
+                DisplayQuestion();
+            }
+            else
+            {
+                Debug.Log("Quiz Finished!");
+                resultPanel.SetActive(true);  // Show result panel
+            }
         }
-        else
-        {
-            Debug.Log("Quiz Finished!");
-        }
-    }
 
     private void UpdateScoreText()
     {
