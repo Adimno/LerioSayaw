@@ -11,6 +11,6 @@ public class ScoreValue : MonoBehaviour
     void Update()
     {
         // Update the TextMeshPro text with points value
-        textMeshPro.text = points.Points.ToString("F2") + "/268";
+        textMeshPro.text = points.Points.ToString();
     }
 }
