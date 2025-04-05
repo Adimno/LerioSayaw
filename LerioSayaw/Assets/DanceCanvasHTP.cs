@@ -5,7 +5,7 @@ using UnityEngine;
 public class DanceCanvasHTP : MonoBehaviour
 {
     public GameObject welcomeCanvas, LookCanvas, CongratsCanvas, GoodluckCanvas;
-    public GameObject WallAppearanceCanvas, GameplayFlowCanvas, ScoringSystemCanvas, IMUCanvas;
+    public GameObject WallAppearanceCanvas, GameplayFlowCanvas, ScoringSystemCanvas, IMUCanvas, IMUCanvasGuide, IMUCanvasImage;
     public GameObject FiguresCanvas;
 
     // assets 
@@ -26,6 +26,8 @@ public class DanceCanvasHTP : MonoBehaviour
         FiguresCanvas.SetActive(false);
         WallCollider.SetActive(true);
         MenuTutorial.SetActive(false);
+        IMUCanvasGuide.SetActive(false);
+        IMUCanvasImage.SetActive(false);
 
     }
 
@@ -46,6 +48,7 @@ public class DanceCanvasHTP : MonoBehaviour
   // start game 
     public void LookCanvasLogic()
     {
+        IMUCanvasGuide.SetActive(false);
         LookCanvas.SetActive(true);
         welcomeCanvas.SetActive(false);
         CongratsCanvas.SetActive(false);
@@ -156,6 +159,23 @@ public class DanceCanvasHTP : MonoBehaviour
         GameplayFlowCanvas.SetActive(false);
         ScoringSystemCanvas.SetActive(false);
         FiguresCanvas.SetActive(false);
+        
+    }
+
+        public void ShowIMUGuide()
+    {
+        IMUCanvasGuide.SetActive(true);
+        IMUCanvasImage.SetActive(true);
+        IMUCanvas.SetActive(false);
+        welcomeCanvas.SetActive(false);
+        LookCanvas.SetActive(false);
+        CongratsCanvas.SetActive(false);
+        GoodluckCanvas.SetActive(false);
+        WallAppearanceCanvas.SetActive(false);
+        GameplayFlowCanvas.SetActive(false);
+        ScoringSystemCanvas.SetActive(false);
+        FiguresCanvas.SetActive(false);
+
         
     }
 
