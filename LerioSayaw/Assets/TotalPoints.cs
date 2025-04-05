@@ -9,6 +9,7 @@ public class TotalPoints : MonoBehaviour
     private double points = 0;
     public int pointsMultiplier = 1; // Default multiplier is 1x
     public GameObject Steps, GameOver;
+    public GameObject GameOverImage, YouWinImage;
 
     void Update()
     {
@@ -37,6 +38,8 @@ public class TotalPoints : MonoBehaviour
             points = 0;
             Steps.SetActive(false);
             GameOver.SetActive(true);
+            GameOverImage.SetActive(true);
+            YouWinImage.SetActive(false);
         }
     }
 }
