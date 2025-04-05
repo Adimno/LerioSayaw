@@ -47827,6 +47827,7 @@ GameObject:
   - component: {fileID: 492697573}
   - component: {fileID: 492697574}
   - component: {fileID: 492697579}
+  - component: {fileID: 492697580}
   m_Layer: 0
   m_Name: Wall142
   m_TagString: Untagged
@@ -47995,6 +47996,33 @@ MonoBehaviour:
   - {fileID: 492697571}
   - {fileID: 2071373197}
   - {fileID: 1020099254}
+--- !u!54 &492697580
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492697571}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &494171535
 GameObject:
   m_ObjectHideFlags: 0
@@ -101718,6 +101746,7 @@ GameObject:
   - component: {fileID: 1020099256}
   - component: {fileID: 1020099257}
   - component: {fileID: 1020099262}
+  - component: {fileID: 1020099263}
   m_Layer: 0
   m_Name: Wall215
   m_TagString: Untagged
@@ -101886,6 +101915,33 @@ MonoBehaviour:
   - {fileID: 492697571}
   - {fileID: 2071373197}
   - {fileID: 1020099254}
+--- !u!54 &1020099263
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020099254}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1020101239
 GameObject:
   m_ObjectHideFlags: 0
@@ -145407,6 +145463,7 @@ GameObject:
   - component: {fileID: 1443149323}
   - component: {fileID: 1443149324}
   - component: {fileID: 1443149329}
+  - component: {fileID: 1443149330}
   m_Layer: 0
   m_Name: Wall106
   m_TagString: Untagged
@@ -145575,6 +145632,33 @@ MonoBehaviour:
   - {fileID: 492697571}
   - {fileID: 2071373197}
   - {fileID: 1020099254}
+--- !u!54 &1443149330
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1443149321}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1443217742
 GameObject:
   m_ObjectHideFlags: 0
@@ -156128,6 +156212,7 @@ GameObject:
   - component: {fileID: 1547611886}
   - component: {fileID: 1547611887}
   - component: {fileID: 1547611889}
+  - component: {fileID: 1547611890}
   m_Layer: 0
   m_Name: Wall1
   m_TagString: Untagged
@@ -156296,6 +156381,33 @@ MonoBehaviour:
   - {fileID: 492697571}
   - {fileID: 2071373197}
   - {fileID: 1020099254}
+--- !u!54 &1547611890
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547611878}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1549255817
 GameObject:
   m_ObjectHideFlags: 0
@@ -188648,6 +188760,7 @@ GameObject:
   - component: {fileID: 1845545553}
   - component: {fileID: 1845545554}
   - component: {fileID: 1845545559}
+  - component: {fileID: 1845545560}
   m_Layer: 0
   m_Name: Wall52
   m_TagString: Untagged
@@ -188816,6 +188929,33 @@ MonoBehaviour:
   - {fileID: 492697571}
   - {fileID: 2071373197}
   - {fileID: 1020099254}
+--- !u!54 &1845545560
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1845545551}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1845916167
 GameObject:
   m_ObjectHideFlags: 0
@@ -212819,6 +212959,7 @@ GameObject:
   - component: {fileID: 2071373199}
   - component: {fileID: 2071373200}
   - component: {fileID: 2071373205}
+  - component: {fileID: 2071373206}
   m_Layer: 0
   m_Name: Wall178
   m_TagString: Untagged
@@ -212987,6 +213128,33 @@ MonoBehaviour:
   - {fileID: 492697571}
   - {fileID: 2071373197}
   - {fileID: 1020099254}
+--- !u!54 &2071373206
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2071373197}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &2071391831
 GameObject:
   m_ObjectHideFlags: 0

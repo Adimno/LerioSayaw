@@ -3,10 +3,9 @@ using TMPro;
 
 public class FigureCounter : MonoBehaviour
 {
-    public TextMeshProUGUI displayText; // Assign a UI Text element in the Inspector
-    
+    public TextMeshProUGUI displayText; // Assign in the Inspector
     public GameObject player;
-    public GameObject[] steps; // Assign in order: step1, step52, step106, step142, step178, step215
+    public GameObject[] steps; // Assign step GameObjects here
 
     private string[] wallMessages =
     {
@@ -19,19 +18,24 @@ public class FigureCounter : MonoBehaviour
     };
 
     private int currentStep = 0;
+    private bool hasBeenTriggered = false; // <-- Prevent double-trigger
 
     private void OnTriggerEnter(Collider other)
     {
+        if (hasBeenTriggered) return; // Avoid multiple triggers
+
         if (other.gameObject == player)
         {
             for (int i = 0; i < steps.Length; i++)
             {
                 if (gameObject == steps[i])
                 {
-                    currentStep = i + 1; // Track progress (1-based index)
+                    Debug.Log("Triggered by: " + gameObject.name);
+                    currentStep = i + 1; // 1-based index
                     displayText.text = wallMessages[i];
                     Debug.Log("Player reached step " + currentStep);
-                    FindObjectOfType<FigureTracker>().UpdateProgress(); // Call progress update
+                    FindObjectOfType<FigureTracker>().UpdateProgress();
+                    hasBeenTriggered = true; // Mark this step as triggered
                     break;
                 }
             }
