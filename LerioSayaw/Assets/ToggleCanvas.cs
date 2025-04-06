@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class ToggleCanvas : MonoBehaviour
 {
-      public GameObject Quitcanvas;
+    public GameObject Quitcanvas;
     private bool isActive = false;
     private bool isScriptActive = true;
-
+    public SpeedController speed;
     public Canvas canvas;
+    public AudioSource music;
 
-     private void Start()
+    private void Start()
     {
         Quitcanvas.SetActive(false); // Start with the Maincanvas disabled 
         canvas.enabled = true;
@@ -26,12 +27,25 @@ public class ToggleCanvas : MonoBehaviour
         {
             isActive = !isActive; // Toggle the isActive flag
             Quitcanvas.SetActive(isActive);
+
+            if (isActive)
+            {
+                Debug.Log("Quitcanvas ON");
+                speed.speed = 0f;
+                music.Pause();
+            }
+            else
+            {
+                Debug.Log("Quitcanvas OFF");
+                speed.speed = 1f;
+                music.UnPause();
+            }
         }
 
-            if (OVRInput.GetDown(OVRInput.Button.One))
+        if (OVRInput.GetDown(OVRInput.Button.One))
         {
             canvas.enabled = !canvas.enabled;
-
+            Debug.Log("Canvas toggled to: " + canvas.enabled);
         }
     }
 
@@ -45,5 +59,4 @@ public class ToggleCanvas : MonoBehaviour
     {
         canvas.enabled = true;
     }
-
 }

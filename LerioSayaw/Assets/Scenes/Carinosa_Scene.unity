@@ -184789,7 +184789,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Quitcanvas: {fileID: 1102363290}
+  speed: {fileID: 198981385}
   canvas: {fileID: 1037928465}
+  music: {fileID: 575404055}
 --- !u!1 &1809621910
 GameObject:
   m_ObjectHideFlags: 0
