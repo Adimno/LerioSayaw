@@ -11,6 +11,8 @@ public class StartDance : MonoBehaviour
     public AudioSource music;
     public static string GenderText;
 
+    public AudioSource LerionFemaleMusic;
+
 
     public static string GetGender()
     {
@@ -33,6 +35,6 @@ public class StartDance : MonoBehaviour
         MaleSteps.SetActive(false);
         FemaleSteps.SetActive(true);
         CharacterSelection.SetActive(false);
-        music.Play();
+        LerionFemaleMusic.Play();
     }
 }
