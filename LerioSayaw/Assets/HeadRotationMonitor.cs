@@ -20,7 +20,7 @@ public class HeadRotationMonitor : MonoBehaviour
         if (yRotation >= 160f && yRotation <= 200f)
         {
             Debug.Log("Player is looking backward!");
-            points.IncrementPoints(1);
+            points.IncrementPoints(2);
             audioSource.Play();
             this.enabled = false; // Disable this script
         }

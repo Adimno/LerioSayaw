@@ -2703,6 +2703,7 @@ GameObject:
   - component: {fileID: 33604179}
   - component: {fileID: 33604180}
   - component: {fileID: 33604185}
+  - component: {fileID: 33604186}
   m_Layer: 0
   m_Name: Wall122
   m_TagString: Untagged
@@ -2863,6 +2864,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   headRotationMonitor: {fileID: 1703869379}
+--- !u!114 &33604186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33604177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d27bcc1c3e511b74299f4c62032ff09f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 575404051}
+  audioSource: {fileID: 728681746}
 --- !u!1 &33744736
 GameObject:
   m_ObjectHideFlags: 0
@@ -17946,7 +17961,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &198981383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46893,6 +46908,7 @@ GameObject:
   - component: {fileID: 485794595}
   - component: {fileID: 485794596}
   - component: {fileID: 485794601}
+  - component: {fileID: 485794602}
   m_Layer: 0
   m_Name: Wall194
   m_TagString: Untagged
@@ -47053,6 +47069,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   headRotationMonitor: {fileID: 1703869379}
+--- !u!114 &485794602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485794593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d27bcc1c3e511b74299f4c62032ff09f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 575404051}
+  audioSource: {fileID: 728681746}
 --- !u!1 &485942890
 GameObject:
   m_ObjectHideFlags: 0
@@ -64672,6 +64702,7 @@ GameObject:
   - component: {fileID: 659204722}
   - component: {fileID: 659204723}
   - component: {fileID: 659204728}
+  - component: {fileID: 659204729}
   m_Layer: 0
   m_Name: Wall176
   m_TagString: Untagged
@@ -64832,6 +64863,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   headRotationMonitor: {fileID: 1703869379}
+--- !u!114 &659204729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 659204720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d27bcc1c3e511b74299f4c62032ff09f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 575404051}
+  audioSource: {fileID: 728681746}
 --- !u!1 &659467693
 GameObject:
   m_ObjectHideFlags: 0
@@ -74783,7 +74828,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &758980785
 Transform:
   m_ObjectHideFlags: 0
@@ -88964,6 +89009,7 @@ GameObject:
   - component: {fileID: 902849941}
   - component: {fileID: 902849942}
   - component: {fileID: 902849947}
+  - component: {fileID: 902849948}
   m_Layer: 0
   m_Name: Wall158
   m_TagString: Untagged
@@ -89124,6 +89170,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   headRotationMonitor: {fileID: 1703869379}
+--- !u!114 &902849948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902849939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d27bcc1c3e511b74299f4c62032ff09f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 575404051}
+  audioSource: {fileID: 728681746}
 --- !u!1 &903982426
 GameObject:
   m_ObjectHideFlags: 0
@@ -93562,6 +93622,7 @@ GameObject:
   - component: {fileID: 944648523}
   - component: {fileID: 944648524}
   - component: {fileID: 944648529}
+  - component: {fileID: 944648530}
   m_Layer: 0
   m_Name: Wall104
   m_TagString: Untagged
@@ -93722,6 +93783,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   headRotationMonitor: {fileID: 1703869379}
+--- !u!114 &944648530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 944648521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d27bcc1c3e511b74299f4c62032ff09f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 575404051}
+  audioSource: {fileID: 728681746}
 --- !u!1 &945491904
 GameObject:
   m_ObjectHideFlags: 0
@@ -107831,6 +107906,7 @@ GameObject:
   - component: {fileID: 1070227173}
   - component: {fileID: 1070227174}
   - component: {fileID: 1070227179}
+  - component: {fileID: 1070227180}
   m_Layer: 0
   m_Name: Wall50
   m_TagString: Untagged
@@ -107991,6 +108067,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   headRotationMonitor: {fileID: 1703869379}
+--- !u!114 &1070227180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1070227171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d27bcc1c3e511b74299f4c62032ff09f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 575404051}
+  audioSource: {fileID: 728681746}
 --- !u!1 &1073122258
 GameObject:
   m_ObjectHideFlags: 0
@@ -116116,6 +116206,7 @@ GameObject:
   - component: {fileID: 1148253170}
   - component: {fileID: 1148253171}
   - component: {fileID: 1148253176}
+  - component: {fileID: 1148253177}
   m_Layer: 0
   m_Name: Wall240
   m_TagString: Untagged
@@ -116276,6 +116367,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   headRotationMonitor: {fileID: 1703869379}
+--- !u!114 &1148253177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148253168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d27bcc1c3e511b74299f4c62032ff09f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 575404051}
+  audioSource: {fileID: 728681746}
 --- !u!1 &1149901279
 GameObject:
   m_ObjectHideFlags: 0
@@ -127004,6 +127109,7 @@ GameObject:
   - component: {fileID: 1267022013}
   - component: {fileID: 1267022014}
   - component: {fileID: 1267022019}
+  - component: {fileID: 1267022020}
   m_Layer: 0
   m_Name: Wall267
   m_TagString: Untagged
@@ -127164,6 +127270,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   headRotationMonitor: {fileID: 1703869379}
+--- !u!114 &1267022020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267022011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d27bcc1c3e511b74299f4c62032ff09f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 575404051}
+  audioSource: {fileID: 728681746}
 --- !u!1 &1269816065
 GameObject:
   m_ObjectHideFlags: 0
@@ -189747,6 +189867,7 @@ GameObject:
   - component: {fileID: 1849050546}
   - component: {fileID: 1849050547}
   - component: {fileID: 1849050552}
+  - component: {fileID: 1849050553}
   m_Layer: 0
   m_Name: Wall213
   m_TagString: Untagged
@@ -189907,6 +190028,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   headRotationMonitor: {fileID: 1703869379}
+--- !u!114 &1849050553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849050544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d27bcc1c3e511b74299f4c62032ff09f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 575404051}
+  audioSource: {fileID: 728681746}
 --- !u!1 &1852182584
 GameObject:
   m_ObjectHideFlags: 0
@@ -195830,6 +195965,7 @@ GameObject:
   - component: {fileID: 1899926138}
   - component: {fileID: 1899926139}
   - component: {fileID: 1899926144}
+  - component: {fileID: 1899926145}
   m_Layer: 0
   m_Name: Wall76
   m_TagString: Untagged
@@ -195990,6 +196126,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   headRotationMonitor: {fileID: 1703869379}
+--- !u!114 &1899926145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899926136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d27bcc1c3e511b74299f4c62032ff09f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 575404051}
+  audioSource: {fileID: 728681746}
 --- !u!1 &1900125700
 GameObject:
   m_ObjectHideFlags: 0
@@ -220537,6 +220687,7 @@ GameObject:
   - component: {fileID: 2140699600}
   - component: {fileID: 2140699601}
   - component: {fileID: 2140699606}
+  - component: {fileID: 2140699607}
   m_Layer: 0
   m_Name: Wall140
   m_TagString: Untagged
@@ -220697,6 +220848,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   headRotationMonitor: {fileID: 1703869379}
+--- !u!114 &2140699607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2140699598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d27bcc1c3e511b74299f4c62032ff09f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 575404051}
+  audioSource: {fileID: 728681746}
 --- !u!1 &2141106139
 GameObject:
   m_ObjectHideFlags: 0
