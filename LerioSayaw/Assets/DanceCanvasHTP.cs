@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DanceCanvasHTP : MonoBehaviour
 {
-    public GameObject welcomeCanvas, LookCanvas, CongratsCanvas, GoodluckCanvas;
+    public GameObject welcomeCanvas, LookCanvas, CongratsCanvas, GoodluckCanvas, ScorePartBronze;
     public GameObject WallAppearanceCanvas, GameplayFlowCanvas, ScoringSystemCanvas, IMUCanvas, IMUCanvasGuide, IMUCanvasImage;
     public GameObject FiguresCanvas;
 
@@ -28,6 +28,7 @@ public class DanceCanvasHTP : MonoBehaviour
         MenuTutorial.SetActive(false);
         IMUCanvasGuide.SetActive(false);
         IMUCanvasImage.SetActive(false);
+        ScorePartBronze.SetActive(false);
 
     }
 
@@ -148,6 +149,21 @@ public class DanceCanvasHTP : MonoBehaviour
         
     }
 
+       public void ShowScoringSystemTwo()
+    {
+        ScorePartBronze.SetActive(true);
+        ScoringSystemCanvas.SetActive(false);
+        welcomeCanvas.SetActive(false);
+        LookCanvas.SetActive(false);
+        CongratsCanvas.SetActive(false);
+        GoodluckCanvas.SetActive(false);
+        WallAppearanceCanvas.SetActive(false);
+        GameplayFlowCanvas.SetActive(false);
+        IMUCanvas.SetActive(false);
+        FiguresCanvas.SetActive(false);
+        
+    }
+
     public void ShowIMU()
     {
         IMUCanvas.SetActive(true);
@@ -159,6 +175,7 @@ public class DanceCanvasHTP : MonoBehaviour
         GameplayFlowCanvas.SetActive(false);
         ScoringSystemCanvas.SetActive(false);
         FiguresCanvas.SetActive(false);
+        ScorePartBronze.SetActive(false);
         
     }
 
