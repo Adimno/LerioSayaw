@@ -216964,6 +216964,9 @@ MonoBehaviour:
   GameOver: {fileID: 1973897552}
   GameOverImage: {fileID: 1604543225}
   YouWinImage: {fileID: 18999858}
+  gold: {fileID: 1373973074}
+  silver: {fileID: 728214615}
+  bronze: {fileID: 1533193336}
 --- !u!114 &2111679322
 MonoBehaviour:
   m_ObjectHideFlags: 0
