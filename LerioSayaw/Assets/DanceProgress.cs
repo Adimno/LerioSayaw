@@ -42,7 +42,7 @@ public class DanceProgress : MonoBehaviour
                 }
                 else if (StartDance.GetGender() == "Female")
                 {
-                    percent.IncrementTaskPercentage(0.95238f);
+                    percent.IncrementTaskPercentage(1.06383f);
                 }
 
             }
