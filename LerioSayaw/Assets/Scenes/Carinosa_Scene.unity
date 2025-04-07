@@ -694,7 +694,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Figure:'
+  m_text: 'Figure :'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a6446991ef31ced4190c53c206cf4b3e, type: 2}
   m_sharedMaterial: {fileID: -9221056233183343877, guid: a6446991ef31ced4190c53c206cf4b3e, type: 2}
@@ -721,8 +721,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 55
-  m_fontSizeBase: 55
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -787,7 +787,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1067, y: 650}
+  m_AnchoredPosition: {x: -1247, y: 650}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &13050951
@@ -9702,7 +9702,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c07274ea12caf74408de4b82e98c05b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 5
 --- !u!1 &202132497
 GameObject:
   m_ObjectHideFlags: 0
@@ -51572,7 +51572,7 @@ GameObject:
   - component: {fileID: 1061507823}
   - component: {fileID: 1061507822}
   - component: {fileID: 1061507821}
-  - component: {fileID: 1061507820}
+  - component: {fileID: 1061507828}
   m_Layer: 0
   m_Name: Wall1
   m_TagString: Untagged
@@ -51580,27 +51580,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1061507820
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1061507818}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08ae4f44dca5e754b96a5956cf6061f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayText: {fileID: 12386622}
-  player: {fileID: 575404051}
-  steps:
-  - {fileID: 1061507818}
-  - {fileID: 2067467837}
-  - {fileID: 33990586}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!114 &1061507821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51741,6 +51720,29 @@ Transform:
   - {fileID: 2066497113}
   m_Father: {fileID: 758980785}
   m_LocalEulerAnglesHint: {x: 0, y: 1, z: 0}
+--- !u!114 &1061507828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061507818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c19718385d2733841826b4218e13fa9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  displayText: {fileID: 12386622}
+  player: {fileID: 575404051}
+  steps:
+  - {fileID: 1061507818}
+  - {fileID: 1620196173}
+  - {fileID: 1178780836}
+  - {fileID: 280275204}
+  - {fileID: 1262176070}
+  - {fileID: 1380918412}
+  - {fileID: 604183343}
+  - {fileID: 1542473484}
 --- !u!1 &1061748347
 GameObject:
   m_ObjectHideFlags: 0
@@ -99674,6 +99676,7 @@ GameObject:
   - component: {fileID: 2111679320}
   - component: {fileID: 2111679321}
   - component: {fileID: 2111679322}
+  - component: {fileID: 2111679323}
   m_Layer: 0
   m_Name: score
   m_TagString: Untagged
@@ -99731,6 +99734,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   progressSlider: {fileID: 565861817}
+--- !u!114 &2111679323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2111679319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc7463f706535604fa3dd185c42584f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  progressText: {fileID: 1067600103}
 --- !u!1 &2112239452
 GameObject:
   m_ObjectHideFlags: 0
