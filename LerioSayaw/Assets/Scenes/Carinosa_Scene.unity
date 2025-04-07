@@ -1706,7 +1706,6 @@ GameObject:
   - component: {fileID: 33990590}
   - component: {fileID: 33990588}
   - component: {fileID: 33990589}
-  - component: {fileID: 33990594}
   m_Layer: 0
   m_Name: Wall69
   m_TagString: Untagged
@@ -1854,27 +1853,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 33990586}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &33990594
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 33990586}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08ae4f44dca5e754b96a5956cf6061f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayText: {fileID: 12386622}
-  player: {fileID: 575404051}
-  steps:
-  - {fileID: 1061507818}
-  - {fileID: 2067467837}
-  - {fileID: 33990586}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!1 &35098786
 GameObject:
   m_ObjectHideFlags: 0
@@ -97766,7 +97744,6 @@ GameObject:
   - component: {fileID: 2067467841}
   - component: {fileID: 2067467839}
   - component: {fileID: 2067467840}
-  - component: {fileID: 2067467845}
   m_Layer: 0
   m_Name: Wall36
   m_TagString: Untagged
@@ -97914,27 +97891,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2067467837}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &2067467845
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2067467837}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08ae4f44dca5e754b96a5956cf6061f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayText: {fileID: 12386622}
-  player: {fileID: 575404051}
-  steps:
-  - {fileID: 1061507818}
-  - {fileID: 2067467837}
-  - {fileID: 33990586}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!1 &2071391831
 GameObject:
   m_ObjectHideFlags: 0
