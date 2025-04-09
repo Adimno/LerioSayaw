@@ -9793,6 +9793,8 @@ GameObject:
   - component: {fileID: 202132501}
   - component: {fileID: 202132499}
   - component: {fileID: 202132500}
+  - component: {fileID: 202132505}
+  - component: {fileID: 202132506}
   m_Layer: 0
   m_Name: Wall20
   m_TagString: Untagged
@@ -9940,6 +9942,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 202132497}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &202132505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 202132497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc9c527338cc75c458b06a54bd43bebf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  headRotationMonitor: {fileID: 1703869379}
+--- !u!114 &202132506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 202132497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d27bcc1c3e511b74299f4c62032ff09f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 575404051}
+  audioSource: {fileID: 1764614641}
 --- !u!1 &202199075
 GameObject:
   m_ObjectHideFlags: 0
@@ -12503,6 +12532,8 @@ GameObject:
   - component: {fileID: 256790597}
   - component: {fileID: 256790595}
   - component: {fileID: 256790596}
+  - component: {fileID: 256790601}
+  - component: {fileID: 256790602}
   m_Layer: 0
   m_Name: Wall65
   m_TagString: Untagged
@@ -12650,6 +12681,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 256790593}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &256790601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256790593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc9c527338cc75c458b06a54bd43bebf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  headRotationMonitor: {fileID: 1703869379}
+--- !u!114 &256790602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256790593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d27bcc1c3e511b74299f4c62032ff09f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 575404051}
+  audioSource: {fileID: 1764614641}
 --- !u!1 &258271285
 GameObject:
   m_ObjectHideFlags: 0
@@ -16561,6 +16619,8 @@ GameObject:
   - component: {fileID: 339784123}
   - component: {fileID: 339784121}
   - component: {fileID: 339784122}
+  - component: {fileID: 339784127}
+  - component: {fileID: 339784128}
   m_Layer: 0
   m_Name: Wall60
   m_TagString: Untagged
@@ -16708,6 +16768,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 339784119}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &339784127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339784119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc9c527338cc75c458b06a54bd43bebf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  headRotationMonitor: {fileID: 1703869379}
+--- !u!114 &339784128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339784119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d27bcc1c3e511b74299f4c62032ff09f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 575404051}
+  audioSource: {fileID: 1764614641}
 --- !u!1 &340266794
 GameObject:
   m_ObjectHideFlags: 0
@@ -18194,6 +18281,8 @@ GameObject:
   - component: {fileID: 359933210}
   - component: {fileID: 359933208}
   - component: {fileID: 359933209}
+  - component: {fileID: 359933214}
+  - component: {fileID: 359933215}
   m_Layer: 0
   m_Name: Wall15
   m_TagString: Untagged
@@ -18341,6 +18430,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 359933206}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &359933214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359933206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc9c527338cc75c458b06a54bd43bebf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  headRotationMonitor: {fileID: 1703869379}
+--- !u!114 &359933215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359933206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d27bcc1c3e511b74299f4c62032ff09f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 575404051}
+  audioSource: {fileID: 1764614641}
 --- !u!1 &362189360
 GameObject:
   m_ObjectHideFlags: 0
@@ -24844,6 +24960,8 @@ GameObject:
   - component: {fileID: 512990640}
   - component: {fileID: 512990638}
   - component: {fileID: 512990639}
+  - component: {fileID: 512990644}
+  - component: {fileID: 512990645}
   m_Layer: 0
   m_Name: Wall79
   m_TagString: Untagged
@@ -24991,6 +25109,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 512990636}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &512990644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 512990636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc9c527338cc75c458b06a54bd43bebf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  headRotationMonitor: {fileID: 1703869379}
+--- !u!114 &512990645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 512990636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d27bcc1c3e511b74299f4c62032ff09f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 575404051}
+  audioSource: {fileID: 1764614641}
 --- !u!1 &514380813
 GameObject:
   m_ObjectHideFlags: 0
@@ -27302,6 +27447,8 @@ GameObject:
   - component: {fileID: 560943412}
   - component: {fileID: 560943410}
   - component: {fileID: 560943411}
+  - component: {fileID: 560943416}
+  - component: {fileID: 560943417}
   m_Layer: 0
   m_Name: Wall35
   m_TagString: Untagged
@@ -27449,6 +27596,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 560943408}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &560943416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560943408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc9c527338cc75c458b06a54bd43bebf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  headRotationMonitor: {fileID: 1703869379}
+--- !u!114 &560943417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560943408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d27bcc1c3e511b74299f4c62032ff09f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 575404051}
+  audioSource: {fileID: 1764614641}
 --- !u!1 &562949318
 GameObject:
   m_ObjectHideFlags: 0
@@ -27655,6 +27829,8 @@ GameObject:
   - component: {fileID: 563012368}
   - component: {fileID: 563012366}
   - component: {fileID: 563012367}
+  - component: {fileID: 563012372}
+  - component: {fileID: 563012373}
   m_Layer: 0
   m_Name: Wall55
   m_TagString: Untagged
@@ -27802,6 +27978,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 563012364}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &563012372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 563012364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc9c527338cc75c458b06a54bd43bebf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  headRotationMonitor: {fileID: 1703869379}
+--- !u!114 &563012373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 563012364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d27bcc1c3e511b74299f4c62032ff09f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 575404051}
+  audioSource: {fileID: 1764614641}
 --- !u!1 &565178337
 GameObject:
   m_ObjectHideFlags: 0
@@ -51346,6 +51549,8 @@ GameObject:
   - component: {fileID: 1048579938}
   - component: {fileID: 1048579936}
   - component: {fileID: 1048579937}
+  - component: {fileID: 1048579942}
+  - component: {fileID: 1048579943}
   m_Layer: 0
   m_Name: Wall25
   m_TagString: Untagged
@@ -51493,6 +51698,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1048579934}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1048579942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048579934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc9c527338cc75c458b06a54bd43bebf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  headRotationMonitor: {fileID: 1703869379}
+--- !u!114 &1048579943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048579934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d27bcc1c3e511b74299f4c62032ff09f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 575404051}
+  audioSource: {fileID: 1764614641}
 --- !u!1 &1050154873
 GameObject:
   m_ObjectHideFlags: 0
@@ -53248,6 +53480,8 @@ GameObject:
   - component: {fileID: 1070227173}
   - component: {fileID: 1070227174}
   - component: {fileID: 1070227179}
+  - component: {fileID: 1070227180}
+  - component: {fileID: 1070227181}
   m_Layer: 0
   m_Name: Wall50
   m_TagString: Untagged
@@ -53408,6 +53642,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   headRotationMonitor: {fileID: 1703869379}
+--- !u!114 &1070227180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1070227171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc9c527338cc75c458b06a54bd43bebf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  headRotationMonitor: {fileID: 1703869379}
+--- !u!114 &1070227181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1070227171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d27bcc1c3e511b74299f4c62032ff09f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 575404051}
+  audioSource: {fileID: 1764614641}
 --- !u!1 &1073122258
 GameObject:
   m_ObjectHideFlags: 0
@@ -68494,6 +68755,8 @@ GameObject:
   - component: {fileID: 1432652257}
   - component: {fileID: 1432652255}
   - component: {fileID: 1432652256}
+  - component: {fileID: 1432652261}
+  - component: {fileID: 1432652262}
   m_Layer: 0
   m_Name: Wall40
   m_TagString: Untagged
@@ -68641,6 +68904,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1432652253}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1432652261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432652253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc9c527338cc75c458b06a54bd43bebf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  headRotationMonitor: {fileID: 1703869379}
+--- !u!114 &1432652262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432652253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d27bcc1c3e511b74299f4c62032ff09f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 575404051}
+  audioSource: {fileID: 1764614641}
 --- !u!1 &1434092589
 GameObject:
   m_ObjectHideFlags: 0
@@ -74175,7 +74465,6 @@ GameObject:
   - component: {fileID: 1547611885}
   - component: {fileID: 1547611886}
   - component: {fileID: 1547611887}
-  - component: {fileID: 1547611889}
   m_Layer: 0
   m_Name: Wall1
   m_TagString: Untagged
@@ -74323,27 +74612,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 575404051}
   percent: {fileID: 2111679322}
---- !u!114 &1547611889
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1547611878}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08ae4f44dca5e754b96a5956cf6061f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayText: {fileID: 12386622}
-  player: {fileID: 575404051}
-  steps:
-  - {fileID: 1547611878}
-  - {fileID: 1845545551}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!1 &1555310410
 GameObject:
   m_ObjectHideFlags: 0
@@ -74662,6 +74930,8 @@ GameObject:
   - component: {fileID: 1559137008}
   - component: {fileID: 1559137006}
   - component: {fileID: 1559137007}
+  - component: {fileID: 1559137012}
+  - component: {fileID: 1559137013}
   m_Layer: 0
   m_Name: Wall45
   m_TagString: Untagged
@@ -74809,6 +75079,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1559137004}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1559137012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559137004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc9c527338cc75c458b06a54bd43bebf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  headRotationMonitor: {fileID: 1703869379}
+--- !u!114 &1559137013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559137004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d27bcc1c3e511b74299f4c62032ff09f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 575404051}
+  audioSource: {fileID: 1764614641}
 --- !u!1 &1559214361
 GameObject:
   m_ObjectHideFlags: 0
@@ -80816,6 +81113,8 @@ GameObject:
   - component: {fileID: 1689918554}
   - component: {fileID: 1689918552}
   - component: {fileID: 1689918553}
+  - component: {fileID: 1689918559}
+  - component: {fileID: 1689918558}
   m_Layer: 0
   m_Name: Wall11
   m_TagString: Untagged
@@ -80963,6 +81262,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1689918550}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1689918558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1689918550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d27bcc1c3e511b74299f4c62032ff09f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 575404051}
+  audioSource: {fileID: 1764614641}
+--- !u!114 &1689918559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1689918550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc9c527338cc75c458b06a54bd43bebf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  headRotationMonitor: {fileID: 1703869379}
 --- !u!1 &1691509777
 GameObject:
   m_ObjectHideFlags: 0
@@ -95374,6 +95700,8 @@ GameObject:
   - component: {fileID: 1973375216}
   - component: {fileID: 1973375214}
   - component: {fileID: 1973375215}
+  - component: {fileID: 1973375220}
+  - component: {fileID: 1973375221}
   m_Layer: 0
   m_Name: Wall30
   m_TagString: Untagged
@@ -95521,6 +95849,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1973375212}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1973375220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1973375212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc9c527338cc75c458b06a54bd43bebf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  headRotationMonitor: {fileID: 1703869379}
+--- !u!114 &1973375221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1973375212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d27bcc1c3e511b74299f4c62032ff09f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 575404051}
+  audioSource: {fileID: 1764614641}
 --- !u!1 &1973897552
 GameObject:
   m_ObjectHideFlags: 0
