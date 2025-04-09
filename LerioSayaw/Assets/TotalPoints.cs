@@ -40,9 +40,9 @@ public class TotalPoints : MonoBehaviour
                     bronze.SetActive(false);
                 } else if (points >= 471 && points <= 593)
                 {
-                    gold.SetActive(false);
+                    gold.SetActive(true);
                     silver.SetActive(false);
-                    bronze.SetActive(true);
+                    bronze.SetActive(false);
                 }
 
             }
@@ -62,9 +62,9 @@ public class TotalPoints : MonoBehaviour
                 }
                 else if (points >= 651 && points <= 801)
                 {
-                    gold.SetActive(false);
+                    gold.SetActive(true);
                     silver.SetActive(false);
-                    bronze.SetActive(true);
+                    bronze.SetActive(false);
                 }
             }
 
@@ -88,9 +88,9 @@ public class TotalPoints : MonoBehaviour
                 }
                 else if (points >= 231 && points <= 291)
                 {
-                    gold.SetActive(false);
+                    gold.SetActive(true);
                     silver.SetActive(false);
-                    bronze.SetActive(true);
+                    bronze.SetActive(false);
                 }
             }
             else if (StartDance.GetGender() == "Female")
@@ -109,9 +109,9 @@ public class TotalPoints : MonoBehaviour
                 }
                 else if (points >= 251 && points <= 315)
                 {
-                    gold.SetActive(false);
+                    gold.SetActive(true);
                     silver.SetActive(false);
-                    bronze.SetActive(true);
+                    bronze.SetActive(false);
                 }
             }
 
