@@ -20,7 +20,7 @@ public class DanceProgress : MonoBehaviour
     {
         if (!hasCollided && (other.gameObject == player))
         {
-
+            // progress for lerion music
             if (music == "Lerion")
             {
                 if (StartDance.GetGender() == "Male")
