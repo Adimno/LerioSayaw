@@ -43331,7 +43331,7 @@ MonoBehaviour:
   FemaleSteps: {fileID: 359236360}
   CharacterSelection: {fileID: 729232969}
   music: {fileID: 575404055}
-  LerionFemaleMusic: {fileID: 0}
+  LerionFemaleMusic: {fileID: 575404055}
 --- !u!1 &884874533
 GameObject:
   m_ObjectHideFlags: 0
@@ -76624,6 +76624,8 @@ MonoBehaviour:
   Steps: {fileID: 198981382}
   GameOver: {fileID: 1602131835}
   points: {fileID: 2111679321}
+  gameoverImage: {fileID: 1604543225}
+  winngerImage: {fileID: 851011529}
 --- !u!4 &1602131837
 Transform:
   m_ObjectHideFlags: 0
@@ -80996,8 +80998,6 @@ RectTransform:
   - {fileID: 722992984}
   - {fileID: 447245033}
   - {fileID: 851011530}
-  - {fileID: 1537520096}
-  - {fileID: 836385845}
   - {fileID: 1495700646}
   - {fileID: 163019453}
   - {fileID: 297744999}
@@ -81006,6 +81006,8 @@ RectTransform:
   - {fileID: 1067600102}
   - {fileID: 2146574692}
   - {fileID: 453117177}
+  - {fileID: 1537520096}
+  - {fileID: 836385845}
   m_Father: {fileID: 2142677533}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -87451,6 +87453,8 @@ MonoBehaviour:
   Steps: {fileID: 198981382}
   GameOver: {fileID: 0}
   points: {fileID: 2111679321}
+  gameoverImage: {fileID: 0}
+  winngerImage: {fileID: 0}
 --- !u!4 &1814518759
 Transform:
   m_ObjectHideFlags: 0

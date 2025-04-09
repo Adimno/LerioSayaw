@@ -7,6 +7,7 @@ public class ErrorCounter : MonoBehaviour
     public GameObject Steps;
     public AudioSource GameOver;
     public TotalPoints points;
+    public GameObject gameoverImage, winngerImage;
 
     public void Increment()
     {
@@ -20,6 +21,8 @@ public class ErrorCounter : MonoBehaviour
             if (!GameOver.isPlaying) // Check if the sound isn't already playing
             {
                 GameOver.Play();
+                gameoverImage.SetActive(true);
+                winngerImage.SetActive(false);
             }
             
             ResultCanvas.SetActive(true);

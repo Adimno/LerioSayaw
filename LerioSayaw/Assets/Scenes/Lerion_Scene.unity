@@ -19045,7 +19045,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &207718500
 Transform:
   m_ObjectHideFlags: 0
@@ -163407,6 +163407,8 @@ MonoBehaviour:
   Steps: {fileID: 198981382}
   GameOver: {fileID: 0}
   points: {fileID: 2111679321}
+  gameoverImage: {fileID: 1604543225}
+  winngerImage: {fileID: 18999858}
 --- !u!4 &1602131837
 Transform:
   m_ObjectHideFlags: 0
@@ -172914,8 +172916,6 @@ RectTransform:
   - {fileID: 1373973075}
   - {fileID: 728214616}
   - {fileID: 1533193337}
-  - {fileID: 1537520096}
-  - {fileID: 836385845}
   - {fileID: 1495700646}
   - {fileID: 163019453}
   - {fileID: 297744999}
@@ -172924,6 +172924,8 @@ RectTransform:
   - {fileID: 1067600102}
   - {fileID: 2146574692}
   - {fileID: 453117177}
+  - {fileID: 1537520096}
+  - {fileID: 836385845}
   m_Father: {fileID: 2142677533}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -187042,6 +187044,8 @@ MonoBehaviour:
   Steps: {fileID: 198981382}
   GameOver: {fileID: 0}
   points: {fileID: 2111679321}
+  gameoverImage: {fileID: 0}
+  winngerImage: {fileID: 0}
 --- !u!4 &1814518759
 Transform:
   m_ObjectHideFlags: 0
