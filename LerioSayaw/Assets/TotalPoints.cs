@@ -12,7 +12,7 @@ public class TotalPoints : MonoBehaviour
     public GameObject GameOverImage, YouWinImage;
     private string music;
     public GameObject gold, silver, bronze;
-
+    public AudioSource GameoverSound;
     private void Awake()
     {
         // Fetch the stored music value once in Awake or Start
@@ -137,6 +137,7 @@ public class TotalPoints : MonoBehaviour
         if (points < 0)
         {
             points = 0;
+            GameoverSound.Play();
             Steps.SetActive(false);
             GameOver.SetActive(true);
             GameOverImage.SetActive(true);
