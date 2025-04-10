@@ -36,7 +36,8 @@ public class FigureCounterCarinosa : MonoBehaviour
                     currentStep = i + 1; // 1-based index
                     displayText.text = wallMessages[i];
                     Debug.Log("Player reached step " + currentStep);
-                    FindObjectOfType<FigureTrackerCarinosa>().UpdateProgress();
+                    // Call UpdateProgress directly from FigureTracker
+                    FigureTrackerCarinosa.UpdateProgress();
                     hasBeenTriggered = true; // Mark this step as triggered
                     break;
                 }
