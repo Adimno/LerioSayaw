@@ -90124,7 +90124,6 @@ GameObject:
   - component: {fileID: 1845545555}
   - component: {fileID: 1845545553}
   - component: {fileID: 1845545554}
-  - component: {fileID: 1845545559}
   m_Layer: 0
   m_Name: Wall52
   m_TagString: Untagged
@@ -90272,27 +90271,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1845545551}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1845545559
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1845545551}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08ae4f44dca5e754b96a5956cf6061f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayText: {fileID: 12386622}
-  player: {fileID: 575404051}
-  steps:
-  - {fileID: 1547611878}
-  - {fileID: 1845545551}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!1 &1845916167
 GameObject:
   m_ObjectHideFlags: 0
