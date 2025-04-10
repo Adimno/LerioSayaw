@@ -23483,7 +23483,6 @@ GameObject:
   - component: {fileID: 478523827}
   - component: {fileID: 478523830}
   - component: {fileID: 478523829}
-  - component: {fileID: 478523828}
   m_Layer: 0
   m_Name: Figures Value
   m_TagString: Untagged
@@ -23510,19 +23509,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0.9730699, y: -1.030711}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &478523828
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 478523826}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc7463f706535604fa3dd185c42584f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  progressText: {fileID: 478523829}
 --- !u!114 &478523829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23543,7 +23529,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '1/6
+  m_text: '0
 
 '
   m_isRightToLeft: 0
@@ -53801,6 +53787,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   progressText: {fileID: 1067600103}
+  HandprogressText: {fileID: 0}
 --- !u!1 &1070227171
 GameObject:
   m_ObjectHideFlags: 0
@@ -102263,6 +102250,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   progressText: {fileID: 1067600103}
+  HandprogressText: {fileID: 478523829}
 --- !u!1 &2112239452
 GameObject:
   m_ObjectHideFlags: 0
