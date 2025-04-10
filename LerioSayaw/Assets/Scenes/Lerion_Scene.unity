@@ -18275,7 +18275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c07274ea12caf74408de4b82e98c05b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 5
 --- !u!1 &199766086
 GameObject:
   m_ObjectHideFlags: 0
@@ -107010,6 +107010,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   progressText: {fileID: 1053521366}
+  HandprogressText: {fileID: 0}
 --- !u!114 &1053521366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107030,7 +107031,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '1/6
+  m_text: '0
 
 '
   m_isRightToLeft: 0
@@ -219468,6 +219469,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   progressText: {fileID: 1067600103}
+  HandprogressText: {fileID: 1053521366}
 --- !u!1 &2112239452
 GameObject:
   m_ObjectHideFlags: 0
