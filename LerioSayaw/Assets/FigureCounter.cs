@@ -34,7 +34,9 @@ public class FigureCounter : MonoBehaviour
                     currentStep = i + 1; // 1-based index
                     displayText.text = wallMessages[i];
                     Debug.Log("Player reached step " + currentStep);
-                    FindObjectOfType<FigureTracker>().UpdateProgress();
+
+                    // Call UpdateProgress directly from FigureTracker
+                    FigureTracker.UpdateProgress();
                     hasBeenTriggered = true; // Mark this step as triggered
                     break;
                 }
