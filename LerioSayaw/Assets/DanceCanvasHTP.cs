@@ -198,6 +198,7 @@ public class DanceCanvasHTP : MonoBehaviour
 
     public void FiguresCanvasLogic()
     {
+         ScorePartBronze.SetActive(false);
         FiguresCanvas.SetActive(true);
         welcomeCanvas.SetActive(false);
         LookCanvas.SetActive(false);

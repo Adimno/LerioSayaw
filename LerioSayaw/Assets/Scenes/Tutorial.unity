@@ -6202,7 +6202,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 630967267}
         m_TargetAssemblyTypeName: DanceCanvasHTP, Assembly-CSharp
-        m_MethodName: FiguresCanvasLogic
+        m_MethodName: ShowGameplayFlow
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10187,10 +10187,10 @@ RectTransform:
   m_Children:
   - {fileID: 1388014956}
   - {fileID: 608596280}
-  - {fileID: 152640435}
   - {fileID: 1498388087}
   - {fileID: 1178322895}
   - {fileID: 1177606039}
+  - {fileID: 152640435}
   - {fileID: 887435783}
   - {fileID: 59223099}
   - {fileID: 1174251418}
@@ -15479,7 +15479,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 630967267}
         m_TargetAssemblyTypeName: DanceCanvasHTP, Assembly-CSharp
-        m_MethodName: ShowGameplayFlow
+        m_MethodName: ShowIMU
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -22721,7 +22721,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 630967267}
         m_TargetAssemblyTypeName: DanceCanvasHTP, Assembly-CSharp
-        m_MethodName: ShowIMU
+        m_MethodName: FiguresCanvasLogic
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
