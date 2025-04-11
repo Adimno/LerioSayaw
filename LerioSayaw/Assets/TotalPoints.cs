@@ -34,12 +34,12 @@ public class TotalPoints : MonoBehaviour
                     gold.SetActive(false);
                     silver.SetActive(false);
                     bronze.SetActive(true);
-                } else if(points >= 301 && points <= 470)
+                } else if(points >= 301 && points <= 500)
                 {
                     gold.SetActive(false);
                     silver.SetActive(true);
                     bronze.SetActive(false);
-                } else if (points >= 471 && points <= 593)
+                } else if (points >= 501 && points <= 617)
                 {
                     gold.SetActive(true);
                     silver.SetActive(false);
@@ -61,7 +61,7 @@ public class TotalPoints : MonoBehaviour
                     silver.SetActive(true);
                     bronze.SetActive(false);
                 }
-                else if (points >= 651 && points <= 801)
+                else if (points >= 651 && points <= 825)
                 {
                     gold.SetActive(true);
                     silver.SetActive(false);
@@ -81,13 +81,13 @@ public class TotalPoints : MonoBehaviour
                     silver.SetActive(false);
                     bronze.SetActive(true);
                 }
-                else if (points >= 141 && points <= 230)
+                else if (points >= 141 && points <= 240)
                 {
                     gold.SetActive(false);
                     silver.SetActive(true);
                     bronze.SetActive(false);
                 }
-                else if (points >= 231 && points <= 291)
+                else if (points >= 241 && points <= 315)
                 {
                     gold.SetActive(true);
                     silver.SetActive(false);
@@ -96,19 +96,19 @@ public class TotalPoints : MonoBehaviour
             }
             else if (StartDance.GetGender() == "Female")
             {
-                if (points >= 0 && points <= 150)
+                if (points >= 0 && points <= 140)
                 {
                     gold.SetActive(false);
                     silver.SetActive(false);
                     bronze.SetActive(true);
                 }
-                else if (points >= 151 && points <= 250)
+                else if (points >= 141 && points <= 230)
                 {
                     gold.SetActive(false);
                     silver.SetActive(true);
                     bronze.SetActive(false);
                 }
-                else if (points >= 251 && points <= 315)
+                else if (points >= 231 && points <= 304)
                 {
                     gold.SetActive(true);
                     silver.SetActive(false);
