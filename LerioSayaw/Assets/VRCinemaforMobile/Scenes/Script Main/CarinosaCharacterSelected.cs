@@ -10,6 +10,8 @@ public class CarinosaCharacterSelected : MonoBehaviour
     [SerializeField] private AudioSource audioSource;
     [SerializeField] private AudioClip selectionSound; // Assign your MP3 file here
 
+    public FigureTextTimer figureTextTimer;
+
     private void Start()
     {
         maleCharacter.SetActive(false);
@@ -18,6 +20,8 @@ public class CarinosaCharacterSelected : MonoBehaviour
 
     public void ChosedMale()
     {
+       figureTextTimer.figureText.gameObject.SetActive(true);
+        figureTextTimer.enabled = true;
         maleCharacter.SetActive(false);
         femaleCharacter.SetActive(true);
         vrPos.transform.position = new Vector3(0.5f, -4.367f, 10.68f);
@@ -28,6 +32,8 @@ public class CarinosaCharacterSelected : MonoBehaviour
 
     public void ChosedFemale()
     {
+     figureTextTimer.figureText.gameObject.SetActive(true);
+        figureTextTimer.enabled = true;
         femaleCharacter.SetActive(false);
         maleCharacter.SetActive(true);
         vrPos.transform.position = new Vector3(-0.124f, -4.367f, 10.68f);
