@@ -9,7 +9,7 @@ public class LerionCharacterSelected : MonoBehaviour
     [SerializeField] private GameObject vrPos;
     [SerializeField] private AudioSource audioSource;
     [SerializeField] private AudioClip selectionSound; // Assign your MP3 file here
-
+    public FigureTextTimerLerion figureTextTimer;
     private void Start()
     {
         maleCharacter.SetActive(false);
@@ -18,6 +18,8 @@ public class LerionCharacterSelected : MonoBehaviour
 
     public void ChosedMale()
     {
+             figureTextTimer.figureText.gameObject.SetActive(true);
+        figureTextTimer.enabled = true;
         maleCharacter.SetActive(false);
         femaleCharacter.SetActive(true);
         vrPos.transform.position = new Vector3(0.8f, -4.367f, 10.68f);
@@ -28,6 +30,8 @@ public class LerionCharacterSelected : MonoBehaviour
 
     public void ChosedFemale()
     {
+             figureTextTimer.figureText.gameObject.SetActive(true);
+        figureTextTimer.enabled = true;
         femaleCharacter.SetActive(false);
         maleCharacter.SetActive(true);
         vrPos.transform.position = new Vector3(-0.63f, -4.367f, 10.68f);
