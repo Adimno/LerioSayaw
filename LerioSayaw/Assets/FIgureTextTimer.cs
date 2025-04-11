@@ -16,7 +16,7 @@ public class FigureTextTimer : MonoBehaviour
         (54f, "Figure 5 - Kneeling and Fanning"),
         (74f, "Figure 6 - Hide and Seek with Handkerchief"),
         (94f, "Figure 7 - Flirting with Handkerchief"),
-        (108f, "Step 92-105: Figure 8 - Flirting")
+        (108f, "Figure 8 - Flirting")
     };
 
     private int currentIndex = 0;
