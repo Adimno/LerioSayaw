@@ -8,12 +8,16 @@ public class DanceCanvasHTP : MonoBehaviour
     public GameObject WallAppearanceCanvas, GameplayFlowCanvas, ScoringSystemCanvas, IMUCanvas, IMUCanvasGuide, IMUCanvasImage;
     public GameObject FiguresCanvas;
 
+
+
     // assets 
+    public GameObject LefthandCanvas;
 
     public GameObject WallCollider, MenuTutorial; 
 
     void Start()
     {
+        LefthandCanvas.SetActive(false);
         // Start with only the welcome screen active
         welcomeCanvas.SetActive(true);
         LookCanvas.SetActive(false);
@@ -80,6 +84,7 @@ public class DanceCanvasHTP : MonoBehaviour
 
     public void DanceCanvasLogic()
     {
+        LefthandCanvas.SetActive(true);
         GoodluckCanvas.SetActive(true);
         LookCanvas.SetActive(false);
         welcomeCanvas.SetActive(false);
