@@ -10,6 +10,12 @@ public class MenuLogic : MonoBehaviour
         StartCoroutine(LoadScene("main_menu_stage"));
     }
 
+    
+    public void TryAgainLogic()
+    {
+             StartCoroutine(LoadScene("Tutorial"));
+    }
+
     public void QuitApplication()
     {
         // Quit the application
